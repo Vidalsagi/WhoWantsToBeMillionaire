@@ -3,8 +3,8 @@
 ### Created by Vidal Sagi
 ## Android game, developed as part of Android course using android studio.
 
-- This project is a who wants to be millonaire game.
-- There are three difficults: easy, medium and hard.
+- This project is a who wants to be millionaire game.
+- There are three difficulties: easy, medium and hard.
 - There are three categories: persons, programming and geography.
 
 The score is calculated based on the number of correct/incorrect answers and can be seen on high scores on the menu.
