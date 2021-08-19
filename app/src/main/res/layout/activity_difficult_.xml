@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingsbackground"
+    tools:context=".Difficult_Activity">
+
+    <ImageView
+        android:id="@+id/easy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00ff00"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/easydifficult" />
+
+    <ImageView
+        android:id="@+id/hard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="#00ff00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/medium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/harddifficult" />
+
+    <ImageView
+        android:id="@+id/medium"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:background="#00ff00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/easy"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        app:srcCompat="@drawable/mediumdifficult" />
+
+    <ImageView
+        android:id="@+id/people"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:background="#ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.437"
+        app:srcCompat="@drawable/guesspersons" />
+
+    <ImageView
+        android:id="@+id/programming"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:background="#ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/people"
+        app:layout_constraintTop_toBottomOf="@+id/medium"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/codequestionsicon" />
+
+    <ImageView
+        android:id="@+id/geo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="#ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/programming"
+        app:layout_constraintTop_toBottomOf="@+id/hard"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/geo" />
+
+    <Button
+        android:id="@+id/startQuestionsButton"
+        android:layout_width="232dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/shape_reguler_button"
+        android:text="@string/START_BUTTON"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/choose_diff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Choose_diff"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/choose_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="@string/Choose_CATEGORY"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textEasy"
+        android:layout_width="38dp"
+        android:layout_height="18dp"
+        android:text="@string/EASY_DIFF"
+        app:layout_constraintBottom_toBottomOf="@+id/easy"
+        app:layout_constraintEnd_toEndOf="@+id/easy"
+        app:layout_constraintStart_toStartOf="@+id/easy"
+        app:layout_constraintTop_toTopOf="@+id/easy" />
+
+    <TextView
+        android:id="@+id/MediumDiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MEDIUM_DIFF"
+        app:layout_constraintBottom_toBottomOf="@+id/medium"
+        app:layout_constraintEnd_toEndOf="@+id/medium"
+        app:layout_constraintStart_toStartOf="@+id/medium"
+        app:layout_constraintTop_toTopOf="@+id/medium" />
+
+    <TextView
+        android:id="@+id/HardDiff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HARD_DIFF"
+        app:layout_constraintBottom_toBottomOf="@+id/hard"
+        app:layout_constraintEnd_toEndOf="@+id/hard"
+        app:layout_constraintStart_toStartOf="@+id/hard"
+        app:layout_constraintTop_toTopOf="@+id/hard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

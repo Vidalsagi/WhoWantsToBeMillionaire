@@ -1,0 +1,2040 @@
+<resources>
+    <string name="app_name">who want to be a millionaire</string>
+    <string name="START_BUTTON">Start</string>
+    <string name="HIGH_SCORE_BUTTON">High Score</string>
+    <string name="CORRECT_ANSWER">I think the correct answer is </string>
+    <string name="Next_button">Next</string>
+    <string name="Choose_diff">Choose Difficult:</string>
+    <string name="Choose_CATEGORY">Choose Category:</string>
+    <string name="HARD_DIFF">Hard</string>
+    <string name="MEDIUM_DIFF">Medium</string>
+    <string name="EASY_DIFF">Easy</string>
+    <string name="ENTER_YOUR_NAME">Enter Your Name</string>
+    <string name="END_GAME">Game Over!</string>
+    <string name="WON_MONEY">Money Earned: </string>
+    <string name="BACK_TO_MENU">Back to Menu</string>
+    <string name="game_rules_1">Welcome to Who Want To Be a Millionaire</string>
+    <string name="game_rules_2">The contestant must answer 15 multiple-choice questions correctly in a row to win the jackpot. The contestant may quit at any time and keep their earnings. For each question, they are shown the question and four possible answers in advance before deciding whether to play on or not.</string>
+    <string name="game_rules_3">The player have 3 help wheels:</string>
+    <string name="game_rules_4"> Fifty fifty - remove two incorrect answers <br/>
+        crowd - ask the help of the crowd <br/>
+        Call phone - ask the help of a friend <br/>
+        The answers of the crowd and the phone call might be incorrect so keep that in mind</string>
+
+    <string-array name="EASY_PROGRAMMING">
+        <item>How many times HIT is printed? <br/>
+            int main()<br/>
+            while(1)<br/>
+            printf("hit")<br/>
+            return 0</item>
+        <item>Infinite times</item>
+        <item>Compilation Error</item>
+        <item>1 time</item>
+        <item>Runtime Error</item>
+
+        <item>How many loops are there in C</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+
+        <item>When C Language was invented?</item>
+        <item>1972</item>
+        <item>1970</item>
+        <item>1978</item>
+        <item>1979</item>
+
+        <item>What is the meaning of void sum (int, int);</item>
+        <item>sum is a function which takes two int arguments and returns void</item>
+        <item>sum is function which takes int arguments</item>
+        <item>it will produce compilation error</item>
+        <item>Can\'t comment</item>
+
+        <item>The concept of two functions with same name is know as?</item>
+        <item>Function Overloading</item>
+        <item>Operator Overloading</item>
+        <item>Function Overriding</item>
+        <item>Function renaming</item>
+
+        <item>What is the following is invalid header file in C?</item>
+        <item>mathio.h</item>
+        <item>math.h</item>
+        <item>string.h</item>
+        <item>ctype.h</item>
+
+        <item>Library function pow() belongs to which header file?</item>
+        <item>math.h</item>
+        <item>mathio.h</item>
+        <item>square.h</item>
+        <item>stdio.h</item>
+
+        <item>Can we declare function inside structure of C Programming?</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Depends on Compiler</item>
+        <item>Yes but run time error</item>
+
+        <item>Is it possible to return two values by any function?</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Depends on Compiler</item>
+        <item>Yes but run time error</item>
+
+        <item>Is it possible to run program without main() function?</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Depends on Compiler</item>
+        <item>Yes but run time error</item>
+
+        <item>How many main() function we can have in our project?</item>
+        <item>1</item>
+        <item>2</item>
+        <item>No Limit</item>
+        <item>Depends on Compiler</item>
+
+        <item>Which programming language is more faster among these?</item>
+        <item>C</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Visual Basic</item>
+
+        <item>Which one of the following is invalid macro in C programming?</item>
+        <item>#elseif</item>
+        <item>#error</item>
+        <item>#ifndef</item>
+        <item>#pragma</item>
+
+        <item>The ASCII code of ‘0’ (zero) is?</item>
+        <item>48D</item>
+        <item>32H</item>
+        <item>0011 1000</item>
+        <item>42H</item>
+
+        <item>The ASCII code of ‘A’ is?</item>
+        <item>41H</item>
+        <item>66D</item>
+        <item>0100 0010</item>
+        <item>0110 0011</item>
+
+        <item>Which operator can not be overloaded?</item>
+        <item>::</item>
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+
+        <item>What is currect syntax of for loop?</item>
+        <item>for(initialization;condition; increment/decrement)</item>
+        <item>for(increment/decrement; initialization; condition)</item>
+        <item>for(initialization, condition, increment/decrement)</item>
+        <item>None</item>
+
+        <item>Can we overload functions in C++?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+        <item>Can a for loop contain another for loop?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+        <item>Can a Structure contain pointer to itself?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+        <item>What is size of void in bytes?</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+
+        <item>Can any function call itself?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+        <item>C++ is superset of which langauge??</item>
+        <item>C</item>
+        <item>VB</item>
+        <item>PASCAL</item>
+        <item>BASIC</item>
+
+        <item>How many object can be created of a Class in C++?</item>
+        <item>There is no limit</item>
+        <item>1</item>
+        <item>5</item>
+        <item>256</item>
+
+        <item>When C Language was invented?</item>
+        <item>1972</item>
+        <item>1970</item>
+        <item>1978</item>
+        <item>1979</item>
+
+        <item>What is the size of empty class?</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+
+        <item>Can we assign null to void pointer?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+        <item>Can we create array of reference?</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+        <item>Exceptions are Caught at ?</item>
+        <item>Run Time</item>
+        <item>Compilation Time</item>
+        <item>Linking Time</item>
+        <item>None</item>
+
+        <item> Can we overload Constructor??</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Compilation Error</item>
+        <item>Runtime Error</item>
+
+    </string-array>
+
+    <string-array name="MEDIUM_PROGRAMMING">
+        <item> Which of these keywords is used to make a class</item>
+        <item>class</item>
+        <item>struct</item>
+        <item>int</item>
+        <item>none of the mentioned</item>
+
+        <item>Which of these operators is used to allocate memory for an object?</item>
+        <item>new</item>
+        <item>malloc</item>
+        <item>give</item>
+        <item>alloc</item>
+
+        <item>Which of these values can a boolean variable contain?</item>
+        <item>True False</item>
+        <item>0 1</item>
+        <item>Any integer value</item>
+        <item>true</item>
+
+        <item>Which one is a valid declaration of a boolean?</item>
+        <item>boolean b3 = false;</item>
+        <item>boolean b2 = ‘false’;</item>
+        <item>boolean b1 = 1;</item>
+        <item>boolean b4 = ‘true’</item>
+
+        <item>Which of these can be returned by the operator &lt;?</item>
+        <item>Integer or Boolean</item>
+        <item>Integer</item>
+        <item>Boolean</item>
+        <item>Character</item>
+
+        <item>Which of these can not be used for a variable name in Java</item>
+        <item>keyword</item>
+        <item>identifier</item>
+        <item>identifier and keyword</item>
+        <item>none of the mentioned</item>
+
+        <item>Which of these is an incorrect array declaration?</item>
+        <item>int arr[] = int [5] new</item>
+        <item>int arr[] = new int[5]</item>
+        <item>int [] arr = new int[5]</item>
+        <item>int arr[] = new int[5]</item>
+
+        <item>Which of these is necessary to specify at time of array initialization?</item>
+        <item>Row</item>
+        <item>Column</item>
+        <item>Both Row and Column</item>
+        <item>None of the mentioned</item>
+
+        <item>Which of the following can be operands of arithmetic operators?</item>
+        <item>Numeric</item>
+        <item>Boolean</item>
+        <item>Characters</item>
+        <item>Both Numeric and Characters</item>
+
+        <item>Modulus operator, %, can be applied to which of these</item>
+        <item>Both Integers and floating – point numbers</item>
+        <item>Integers</item>
+        <item>Floating </item>
+        <item>None of the mentioned</item>
+
+        <item>Decrement operator, −−, decreases the value of variable by what number</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+        <item>Which of these is not a bitwise operator</item>
+        <item>&lt;=</item>
+        <item>&amp;</item>
+        <item>&amp;=</item>
+        <item>|=</item>
+
+        <item>What is the output of relational operators</item>
+        <item>Boolean</item>
+        <item>Integer</item>
+        <item>Characters</item>
+        <item>Double</item>
+
+        <item>Which of these is returned by “greater than”, “less than” and “equal to” operators</item>
+        <item>Boolean</item>
+        <item>Floating – point numbers</item>
+        <item>Integers</item>
+        <item>None of the mentioned</item>
+
+        <item>Which of these statements is correct?</item>
+        <item>true and false are non numeric values</item>
+        <item>true and false are numeric values 1 and 0</item>
+        <item>true and false are numeric values 0 and 1</item>
+        <item>true is any non zero value and false is 0</item>
+
+        <item>Which of these selection statements test only for equality?</item>
+        <item>switch</item>
+        <item>if</item>
+        <item>if and swtitch</item>
+        <item>none</item>
+
+        <item>Which of these are selection statements in Java?</item>
+        <item>if()</item>
+        <item>for()</item>
+        <item>continue</item>
+        <item>break</item>
+
+        <item>Which of these jump statements can skip processing the remainder of the code</item>
+        <item>continue</item>
+        <item>return</item>
+        <item>exit</item>
+        <item>break</item>
+
+        <item>What is true about a break</item>
+        <item>Break halts the execution and forces the control out of the loop</item>
+        <item>Break stops the execution of entire program</item>
+        <item>Break forces the control out of the loop and starts the execution of next iteration</item>
+        <item>Break halts the execution of the loop for certain time frame</item>
+
+        <item>What is true about do statement</item>
+        <item>do statement does not get execute if condition is not matched in the first iteration</item>
+        <item>do statement executes the code of a loop at least once</item>
+        <item>do statement checks the condition at the beginning of the loop</item>
+        <item>do statement executes the code more than once always</item>
+
+        <item>Which of the following is used with the switch statement</item>
+        <item>break</item>
+        <item>Continue</item>
+        <item>Exit</item>
+        <item>do</item>
+
+        <item>Which of the following is not a decision making statement</item>
+        <item>do-while</item>
+        <item>switch</item>
+        <item>if</item>
+        <item>if-else</item>
+
+        <item>Which of the following is not a valid jump statement</item>
+        <item>goto</item>
+        <item>break</item>
+        <item>continue</item>
+        <item>return</item>
+
+        <item>Which of the following is not a valid flow control statement</item>
+        <item>exit()</item>
+        <item>break</item>
+        <item>continue</item>
+        <item>return</item>
+
+        <item>Which of the following is not OOPS concept in Java?</item>
+        <item>Compilation</item>
+        <item>Inheritance</item>
+        <item>Encapsulation</item>
+        <item>Polymorphism</item>
+
+        <item>When does method overloading is determined</item>
+        <item>At compile time</item>
+        <item>At run time</item>
+        <item>At coding time</item>
+        <item>At execution time</item>
+
+        <item>Which concept of Java is achieved by combining methods and attribute into a class</item>
+        <item>Encapsulation</item>
+        <item>Inheritance</item>
+        <item>Polymorphism</item>
+        <item>Abstraction</item>
+
+        <item>Method overriding is combination of inheritance and polymorphism</item>
+        <item>True</item>
+        <item>False</item>
+        <item>Comelier depend</item>
+        <item>Only in Java</item>
+
+        <item>What would be the behaviour if this() and super() used in a method</item>
+        <item>compile time error</item>
+        <item>Runtime error</item>
+        <item>Throws exception</item>
+        <item>Runs successfully</item>
+
+        <item>What is true about constructor</item>
+        <item>It can take any number of parameters</item>
+        <item>It can contain return type</item>
+        <item>It can have any non access modifiers</item>
+        <item>Constructor cannot throw an exception</item>
+
+    </string-array>
+
+    <string-array name="HARD_PROGRAMMING">
+        <item>Who is known as father of Java Programming Language?</item>
+        <item>James Gosling</item>
+        <item>M. P Java</item>
+        <item>Charel Babbage</item>
+        <item>Blais Pascal</item>
+
+        <item>Which provides runtime environment for java byte code to be executed?</item>
+        <item>JVM</item>
+        <item>JDK</item>
+        <item>JRE</item>
+        <item>JAVAC</item>
+
+        <item>What is byte code in Java?</item>
+        <item>Code generated by a Java compiler</item>
+        <item>Code generated by a Java Virtual Machine</item>
+        <item>Name of Java source code file</item>
+        <item>Block of code written inside a class</item>
+
+        <item>Which of the following are not Java keywords</item>
+        <item>then</item>
+        <item>double</item>
+        <item>switch</item>
+        <item>instanceof</item>
+
+        <item>precedence</item>
+        <item>()</item>
+        <item>++</item>
+        <item>*</item>
+        <item>--</item>
+
+        <item>Which variables are created when an object is created with the use of the keyword new and destroyed when the object is destroyed</item>
+        <item>Instance variables</item>
+        <item>Local variables</item>
+        <item>Class Variables</item>
+        <item>Static variables</item>
+
+        <item>Java language was initially called as</item>
+        <item>Oak</item>
+        <item>Sumatra</item>
+        <item>J++</item>
+        <item>Pine</item>
+
+        <item>What is garbage collection in the context of Java</item>
+        <item>Memory used by the object with no reference is automatically reclaimed.</item>
+        <item>Java deletes all unused java files on the system</item>
+        <item>The JVM cleans output of Java program with error</item>
+        <item>Any unused package in a program automatically gets deleted</item>
+
+        <item>Which one is a template for creating different objects</item>
+        <item>A class</item>
+        <item>An Array</item>
+        <item>Interface</item>
+        <item>Method</item>
+
+        <item>Which symbol is used to contain the values of automatically initialized arrays</item>
+        <item>Braces</item>
+        <item>Brackets</item>
+        <item>Parentheses</item>
+        <item>Comma</item>
+
+        <item>Which one is true about a constructor</item>
+        <item>All of the above</item>
+        <item>A constructor must have the same name as the class it is declared within.</item>
+        <item>A constructor is used to create objects</item>
+        <item>A constructor may be declared private</item>
+
+        <item>Which of the following are not the methods of the Thread class</item>
+        <item>go()</item>
+        <item>yield()</item>
+        <item>sleep(long msec)</item>
+        <item>stop()</item>
+
+        <item>Division operator has ____ precedence over multiplication operator</item>
+        <item>Equal</item>
+        <item>Heighest</item>
+        <item>Least</item>
+        <item>None of These</item>
+
+        <item>What is the full form of JVM</item>
+        <item>Java Virtual Machine</item>
+        <item>Java Very Large Machine</item>
+        <item>Java Verified Machine</item>
+        <item>Java Very Small Machine</item>
+
+        <item>In Java code, the line that begins with /* and ends with */ is known as?</item>
+        <item>Multiline comment</item>
+        <item>Single line comment</item>
+        <item>None of these</item>
+        <item>An array</item>
+
+        <item>Which of the following are not Java modifiers</item>
+        <item>friendly</item>
+        <item>public</item>
+        <item>private</item>
+        <item>transient</item>
+
+        <item>Which one is not a reserve keyword in C Language</item>
+        <item>main</item>
+        <item>auto</item>
+        <item>case</item>
+        <item>register</item>
+
+        <item>A C variable name can start with a ____</item>
+        <item>Underscore</item>
+        <item>Number</item>
+        <item>Plus Sign</item>
+        <item>Asterisk</item>
+
+        <item>Name the loop that executes at least once</item>
+        <item>do-while</item>
+        <item>For</item>
+        <item>while</item>
+        <item>if</item>
+
+        <item>Who developed the Python language?</item>
+        <item>Guido van Rossum</item>
+        <item>Zim Den</item>
+        <item>Niene Stom</item>
+        <item>Wick van Rossum</item>
+
+        <item> In which year was the Python language developed?</item>
+        <item>1989</item>
+        <item>1981</item>
+        <item>1972</item>
+        <item>1995</item>
+
+        <item>In which language is Python written</item>
+        <item>C</item>
+        <item>PHP</item>
+        <item>English</item>
+        <item>All of the above</item>
+
+        <item>Which one of the following is the correct extension of the Python file?</item>
+        <item>.py</item>
+        <item>.python</item>
+        <item>.p</item>
+        <item>None of these</item>
+
+        <item>Which of the following declarations is incorrect</item>
+        <item>None of these</item>
+        <item>_x = 2</item>
+        <item>__x = 3</item>
+        <item>__xyz__ = 5</item>
+
+        <item>Which of the following is not a keyword in Python language</item>
+        <item>val</item>
+        <item>raise</item>
+        <item>try</item>
+        <item>with</item>
+
+        <item>Which of the following statements is correct for variable names in Python language</item>
+        <item>Unlimited length</item>
+        <item>All variable names must begin with an underscore.</item>
+        <item>The variable name length is a maximum of 2.</item>
+        <item>All of the above</item>
+
+        <item>Which of the following declarations is incorrect in python language</item>
+        <item>x y z p = 5000 6000 7000 8000</item>
+        <item>xyzp = 5,000,000</item>
+        <item>x,y,z,p = 5000, 6000, 7000, 8000</item>
+        <item>x_y_z_p = 5,000,000</item>
+
+        <item>Which of the following words cannot be a variable in python language</item>
+        <item>try</item>
+        <item>_val</item>
+        <item>_try_</item>
+        <item>val</item>
+
+        <item>Which of the following functions is a built-in function in python language?</item>
+        <item>print()</item>
+        <item>val()</item>
+        <item>None of these</item>
+        <item>pow()</item>
+
+        <item>round(4.576) output is </item>
+        <item>5</item>
+        <item>4</item>
+        <item>576</item>
+        <item>4.5</item>
+
+    </string-array>
+
+
+    <string-array name="EASY_PERSONS">
+        <item>To which of the following is the statement \'Eureka!\' Attributed?</item>
+        <item>Archimedes</item>
+        <item>Pythagoras</item>
+        <item>Leonardo da Vinci</item>
+        <item>Galileo Galilei</item>
+
+        <item>In the bible who was swallowed by a whale?</item>
+        <item>Jonah the prophet</item>
+        <item>Elijah the prophet</item>
+        <item>Job</item>
+        <item>Our Father Abraham</item>
+
+        <item>Who was inducted into the Colorado Women\'s Hall of Fame because \'It was in Denver that she discovered Zionism\'</item>
+        <item>Golda Meir</item>
+        <item>Benazir Bhutto</item>
+        <item>Indira Gandhi</item>
+        <item>Corazon Aquino</item>
+
+        <item>Who is the actor who became President of the United States?</item>
+        <item>Ronald Reagan</item>
+        <item>John Kennedy</item>
+        <item>Theodore Roosevelt</item>
+        <item>Franklin Roosevelt</item>
+
+        <item>Who is the leader of blacks in South Africa who fought heroically against racism?</item>
+        <item>Nelson Mandela</item>
+        <item>Rodney King</item>
+        <item>Martin Luther King</item>
+        <item>Matthew King</item>
+
+        <item>Which of the following was an important political and spiritual leader in India?</item>
+        <item>Mahatma Gandhi</item>
+        <item>Jacques Chirac</item>
+        <item>Michael Gorbachev</item>
+        <item>John Adams</item>
+
+        <item>Fidel Castro is a revolutionary figure who became the ______ prime minister.</item>
+        <item>Cuba</item>
+        <item>Mexico</item>
+        <item>Guatemala</item>
+        <item>Argentina</item>
+
+        <item>Who is the 16th President of the United States to lead the victory in the Civil War?</item>
+        <item>Abraham Lincoln</item>
+        <item>George Washington</item>
+        <item>Thomas Jefferson</item>
+        <item>Roosevelt</item>
+
+        <item>Who hit the rock twice instead of talking to the rock?</item>
+        <item>Moshe</item>
+        <item>Aaron</item>
+        <item>Jacob</item>
+        <item>Samson</item>
+
+        <item>Who was King Solomon\'s mother?</item>
+        <item>Bat sheva</item>
+        <item>Rebecca</item>
+        <item>Hagar</item>
+        <item>Abigail</item>
+
+        <item>Who was King Solomon\'s father?</item>
+        <item>David</item>
+        <item>Irbem</item>
+        <item>Rehavam</item>
+        <item>Shaul</item>
+
+        <item>Which of the following was not King Solomon\'s brother?</item>
+        <item>Avindav</item>
+        <item>Avshalom</item>
+        <item>Amnon</item>
+        <item>Adonia</item>
+
+        <item>Which queen visited King Solomon after hearing about his wisdom?</item>
+        <item>Queen of Sheba</item>
+        <item>Queen of Egypt</item>
+        <item>Queen Esther</item>
+        <item>Queen of Persia</item>
+
+        <item>Who is the Jew who became the queen of Persia?</item>
+        <item>Esther</item>
+        <item>Dvora</item>
+        <item>Isabel</item>
+        <item>Persilia</item>
+
+        <item>Who hid the two spies in her house?</item>
+        <item>Rahab</item>
+        <item>Naomi</item>
+        <item>Gomer</item>
+        <item>Yael</item>
+
+        <item>Who was Jacob\'s first wife?</item>
+        <item>Leah</item>
+        <item>Hagar</item>
+        <item>Marah</item>
+        <item>Rebecca</item>
+
+        <item>Who was the sister of Moses and Aaron?</item>
+        <item>Miriam</item>
+        <item>Tirzah</item>
+        <item>Ruth</item>
+        <item>Bilha</item>
+
+        <item>Who was the mother of Moses?</item>
+        <item>Yocheved</item>
+        <item>Tzipora</item>
+        <item>Miriam</item>
+        <item>Tamar</item>
+
+        <item>In what modern country of today was the communist philosopher Carl Marx born?</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>England</item>
+        <item>Austria</item>
+
+        <item>Who is known as the \'Father of Medicine \'?</item>
+        <item>Hippocrates</item>
+        <item>hasiud</item>
+        <item>sentronion</item>
+        <item>Augustus</item>
+
+        <item>Who was the King of Macedonia who won the persians?</item>
+        <item>Alexander the Great</item>
+        <item>The great castration</item>
+        <item>Louis XIV</item>
+        <item>None of the answers</item>
+
+        <item>Who was the first emperor in ancient Rome?</item>
+        <item>Augustus</item>
+        <item>Julius Caesar</item>
+        <item>Antonius</item>
+        <item>Claudius</item>
+
+        <item>What is the original last name of Shimon Peres?</item>
+        <item>Persky</item>
+        <item>Polanski</item>
+        <item>Fresco</item>
+        <item>Freskovich</item>
+
+        <item>What is the country of origin of Ludwig van Beethoven?</item>
+        <item>Germany</item>
+        <item>Austria</item>
+        <item>Hungary</item>
+        <item>Switzerland</item>
+
+        <item>Who is the most senior god on Olympus?</item>
+        <item>Zeus</item>
+        <item>Apollo</item>
+        <item>Poseidon</item>
+        <item>Athena</item>
+
+        <item>Who is the mother of Pegasus (the horse with the wings)?</item>
+        <item>Medoza</item>
+        <item>Aphrodite</item>
+        <item>Athena</item>
+        <item>Hera</item>
+
+        <item>How did Oedipus defeat the Sphinx?</item>
+        <item>He answered her riddle correctly</item>
+        <item>He skewered her on a pointed stick</item>
+        <item>Placed a mirror in front of her and frightened her with her reflection</item>
+        <item>He enlisted all the gods to help</item>
+
+        <item>witch god is the husband of Aphrodite?</item>
+        <item>The Phaistos</item>
+        <item>Ares</item>
+        <item>Apollo</item>
+        <item>Hermes</item>
+
+        <item>Who is the goddess of marriage?</item>
+        <item>Hera</item>
+        <item>Athena</item>
+        <item>Aphrodite</item>
+        <item>Persephone</item>
+
+        <item>Who stole the fire from the gods and brought it to humans?</item>
+        <item>Prometheus</item>
+        <item>Hercules</item>
+        <item>Kronos</item>
+        <item>Uranus</item>
+
+    </string-array>
+
+    <string-array name="MEDIUM_PERSONS">
+        <item>When did Tut Ankh Amun rule?</item>
+        <item>In 14 BC</item>
+        <item>In 15 BC</item>
+        <item>In 10 AD</item>
+        <item>In 12 AD</item>
+
+        <item>Who was Russia\'s first emperor?</item>
+        <item>Peter the First</item>
+        <item>Edward I</item>
+        <item>Louis XIV</item>
+        <item>Edward II</item>
+
+        <item>Edward I was king of ______.</item>
+        <item>England</item>
+        <item>Scotland</item>
+        <item>France</item>
+        <item>Belgium</item>
+
+        <item>Which of the following was the King of Spain and Portugal?</item>
+        <item>Philip II</item>
+        <item>Philip I</item>
+        <item>Edward I</item>
+        <item>None of them</item>
+
+        <item>Cyrus the Great became king of ______ in 546 BC.</item>
+        <item>Persia</item>
+        <item>France</item>
+        <item>Spain</item>
+        <item>Turkey</item>
+
+        <item>Who was the King of Macedonia who conquered the Persian Empire?</item>
+        <item>Cyrus the Great</item>
+        <item>Napoleon</item>
+        <item>Genghis Khan</item>
+        <item>Alexander the Great</item>
+
+        <item>The Greeks believed that the gods lived at the end of Mount Olympus. Who was the god who ruled over the other gods?</item>
+        <item>Zeus</item>
+        <item>Jupiter</item>
+        <item>Plato</item>
+        <item>Apollo</item>
+
+        <item>What was the important daily role of the god Apollo?</item>
+        <item>Ride in the sky on his solar chariot</item>
+        <item>Clear the moon</item>
+        <item>Take care of the welfare of the other gods</item>
+        <item>Provide food to Zeus\' wife</item>
+
+        <item>Anyone who saw this god without a mask would go mad or die. Who is this god?</item>
+        <item>Dionysus</item>
+        <item>Poseidon</item>
+        <item>Apollo</item>
+        <item>Hadas</item>
+
+        <item>Who was the second most important god after Zeus?</item>
+        <item>Poseidon, the god who rules the sea</item>
+        <item>Ares, the god of war</item>
+        <item>Demeter, the goddess of grain</item>
+        <item>Hera, Zeus\' wife</item>
+
+        <item>When Poseidon, the god of the sea, was angry he used a pitchfork to ________.</item>
+        <item>Cause storms at sea and destroy ships</item>
+        <item>Hunt whales</item>
+        <item>Sail across the water</item>
+        <item>Hunt the animals in the sea</item>
+
+        <item>What god swallowed his children for fear of ousting him and taking his place?</item>
+        <item>Kronos</item>
+        <item>Hadas</item>
+        <item>Poseidon</item>
+        <item>Eris</item>
+
+        <item>The city of Athens is named after Athena who was ________.</item>
+        <item>Daughter of Zeus</item>
+        <item>Zeus\' bride</item>
+        <item>Poseidon\'s daughter</item>
+        <item>Apollo\'s sister</item>
+
+        <item>Who was the goddess of love and beauty?</item>
+        <item>Aphrodite</item>
+        <item>Hestia</item>
+        <item>Hera</item>
+        <item>Athena</item>
+
+        <item>The god Eros held in his hand an archery bow. What happened to the people whose arrow hit their heart?</item>
+        <item>They fell in love</item>
+        <item>They became blind</item>
+        <item>They became deaf</item>
+        <item>They died</item>
+
+        <item>Where was Albert Einstein Born?</item>
+        <item>Germany</item>
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>United States</item>
+
+        <item>At which of the following institutions did Albert Einstein teach?</item>
+        <item>University of Berlin</item>
+        <item>Yale University</item>
+        <item>Harvard University</item>
+        <item>University of Paris</item>
+
+        <item>When Einstein died in 1955, an American doctor removed his brain and _______________.</item>
+        <item>All the answers are correct</item>
+        <item>Handed it over to a team of scientists for the purpose of researching it</item>
+        <item>Kept it for 40 years</item>
+        <item>He put it in a jar, took it to his house and refused to return it</item>
+
+        <item>Where was Benjamin Zeev Herzl born?</item>
+        <item>Budapest, Hungary</item>
+        <item>Bucharest, Romania</item>
+        <item>Vienna, Austria</item>
+        <item>London England</item>
+
+        <item>In what field did Herzl have a doctorate?</item>
+        <item>laws</item>
+        <item>natural sciences</item>
+        <item>economy</item>
+        <item>International Relations</item>
+
+        <item>What was Herzl\'s role in the Dreyfus trial?</item>
+        <item>A journalist who covered the trial</item>
+        <item>Spokesman for the Zionist movement</item>
+        <item>Representative of the Austrian Government</item>
+        <item>Representative of the Jewish settlement</item>
+
+        <item>In what year were Herzl\'s bones brought for burial in Israel?</item>
+        <item>1949</item>
+        <item>1932</item>
+        <item>1961</item>
+        <item>1958</item>
+
+        <item>Alexander the Great conquered ________.</item>
+        <item>Asia</item>
+        <item>Africa</item>
+        <item>India</item>
+        <item>Europe</item>
+
+        <item>Who was the spiritual teacher of Alexander the Great?</item>
+        <item>Aristotle</item>
+        <item>Socrates</item>
+        <item>His father</item>
+        <item>His mother</item>
+
+        <item>In what city did Alexander the Great die?</item>
+        <item>Babel</item>
+        <item>Athens</item>
+        <item>Jerusalem</item>
+        <item>Rome</item>
+
+        <item>Who asked who - Evil why will you beat your friend</item>
+        <item>Moses asked two Hebrew people</item>
+        <item>Goliath asked David, after throwing a stone at him</item>
+        <item>Pharaoh asked Moses and Aaron, after the plague of blood</item>
+        <item>Jeremiah the ministers who threw him into the pit</item>
+
+        <item>Who asked who - Have You murdered and also inherited</item>
+        <item>Elijah and Ahab, in the name of god</item>
+        <item>Nathan the prophet, in the name of god</item>
+        <item>Jehemiah asked Josiah, in the name of the Lord</item>
+        <item>God asked Cain</item>
+
+        <item>Who asked who - Ayecha</item>
+        <item>God asked the first man</item>
+        <item>God asked the serpent</item>
+        <item>God asked the prophet Jonah</item>
+        <item>Job asked God</item>
+
+        <item>Who asked who - Am I a dog</item>
+        <item>Goliath asked David</item>
+        <item>The snake asked Eve</item>
+        <item>Lot asked Abraham</item>
+        <item>David asked Saul</item>
+
+        <item>Who asked who - Why will you weep and why will you not eat</item>
+        <item>Elkana asked Hannah</item>
+        <item>Jacob asked Rachel</item>
+        <item>Amnon asked Tamar</item>
+        <item>Ali the priest asked Hannah</item>
+
+    </string-array>
+
+    <string-array name="HARD_PERSONS">
+        <item>Who was the first person to win the Nobel Prize?</item>
+        <item>Marie Curry</item>
+        <item>Linus Pauling</item>
+        <item>Frederick Sanger</item>
+        <item>John Bardin</item>
+
+        <item>What was the invention of Alfred Noble, after whom the prize is named?</item>
+        <item>dynamite</item>
+        <item>Atomic Bomb</item>
+        <item>telescope</item>
+        <item>radio</item>
+
+        <item>For what did Albert Einstein win the Nobel Prize?</item>
+        <item>Disclosure of the law of photoelectric effect</item>
+        <item>He did not win the Nobel Prize</item>
+        <item>Relativity theory</item>
+        <item>Black hole discovery</item>
+
+        <item>In what year did Yitzhak Rabin, Shimon Peres and Yasser Arafat receive the Nobel Peace Prize?</item>
+        <item>1994</item>
+        <item>1997</item>
+        <item>1993</item>
+        <item>1989</item>
+
+        <item>Who is the only woman in history to have won two Nobel Prizes?</item>
+        <item>Marie Curie</item>
+        <item>Dorothy Crawpot</item>
+        <item>irene joliot curie</item>
+        <item>No woman has won two Nobel Prizes</item>
+
+        <item>Winston Churchill received the Nobel Prize in 1953. In what field was he awarded the prize?</item>
+        <item>Literature</item>
+        <item>Peace</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+
+        <item>Which of the following prominent leaders has never received a Nobel Prize?</item>
+        <item>Mahatma Gandhi</item>
+        <item>Nelson Mandela</item>
+        <item>Martin Luther King</item>
+        <item>They all received the Nobel Prize</item>
+
+        <item>In what year did Anwar Sadat and Menachem Begin receive the Nobel Peace Prize together?</item>
+        <item>1978</item>
+        <item>1975</item>
+        <item>1973</item>
+        <item>1974</item>
+
+        <item>Which of the following Jews did not win the Nobel Prize?</item>
+        <item>Amos Oz</item>
+        <item>Henry Kissinger</item>
+        <item>Menachem Begin</item>
+        <item>Eli Wiesel</item>
+
+        <item>In what city in the US was Steve Jobs born?</item>
+        <item>San Francisco</item>
+        <item>Chicago</item>
+        <item>Boston</item>
+        <item>New York</item>
+
+        <item>Who was Steve Jobs\' partner in founding Apple?</item>
+        <item>Steve Wozniak</item>
+        <item>Bill Gates</item>
+        <item>John Scully</item>
+        <item>He had no partner, he founded Apple on his own</item>
+
+        <item>What company did Steve Jobs founded after leaving Apple?</item>
+        <item>Next</item>
+        <item>Microsoft</item>
+        <item>IBM</item>
+        <item>Fixer</item>
+
+        <item>In what year did Steve Jobs finally retire from managing Apple?</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2012</item>
+
+        <item>Who asked who - Where can I get meat for all these people?</item>
+        <item>Moses asked God</item>
+        <item>Moses asked Aaron</item>
+        <item>Noah asked God</item>
+        <item>Joseph asked Pharaoh</item>
+
+        <item>Who asked who - until when will you get me drunk</item>
+        <item>Ali the priest asked Hannah</item>
+        <item>Ehav asked Isabel</item>
+        <item>Elkana asked Hannah</item>
+        <item>Mordecai asked Esther</item>
+
+        <item>Who asked whom - why did you leave me</item>
+        <item>David asked God</item>
+        <item>Job asked God</item>
+        <item>Jonah asked God</item>
+        <item>Jeremiah asked God</item>
+
+        <item>Who asked who - why is your face bad today</item>
+        <item>Joseph asked the eunuchs of Pharaoh</item>
+        <item>Lot asked the angels</item>
+        <item>Abraham asked the angels</item>
+        <item>Jacob and Shimon asked Levi</item>
+
+        <item>Who asked who - who is in the yard</item>
+        <item>Ahasuerus asked his servants</item>
+        <item>Haman asked Zeresh</item>
+        <item>Esther asked Ahasuerus</item>
+        <item>Harbona asked Vizta</item>
+
+        <item>At which conference did Nazi leaders meet to plan the “final solution” to the “Jewish question”?</item>
+        <item>Wannsee Conference</item>
+        <item>Potsdam Conference</item>
+        <item>Yalta Conference</item>
+        <item>Casablanca Conference</item>
+
+        <item>What was the name of the black-uniformed elite corps of the Nazi Party, founded by Adolf Hitler as his bodyguard?</item>
+        <item>The SS</item>
+        <item>Einsatzgruppen</item>
+        <item>Gestapo</item>
+        <item>Blackshirt</item>
+
+        <item>Which German Nazi official, also called “the Hangman”, was commissioned to carry out the “final solution to the Jewish question”?</item>
+        <item>Reinhard Heydrich</item>
+        <item>Walther Funk</item>
+        <item>Heinrich Himmler</item>
+        <item>Hermann Goring</item>
+
+        <item>Who helped create the Gestapo, the dreaded police force of the Third Reich, and later committed suicide rather than face execution after World War II?</item>
+        <item>Hermann Goring</item>
+        <item>Adolf Hitler</item>
+        <item>Erwin Rommel</item>
+        <item>Gustav Stresemann</item>
+
+        <item>Which German military leader was known as the “Desert Fox”?</item>
+        <item>Erwin Rommel</item>
+        <item>Hermann Goring</item>
+        <item>Gustav Stresemann</item>
+        <item>Adolf Hitler</item>
+
+        <item>Which English king led his country into the Hundred Years War with France?</item>
+        <item>Edward III</item>
+        <item>Richard I</item>
+        <item>John</item>
+        <item>Henry IV</item>
+
+        <item>King William I was also called:</item>
+        <item>The Conqueror</item>
+        <item>The Brave</item>
+        <item>Longshanks</item>
+        <item>The Red</item>
+
+        <item>Who was NOT a monarch in medieval England?</item>
+        <item>Queen Elizabeth II</item>
+        <item>William the Conqueror</item>
+        <item>King John I</item>
+        <item>Richard the Lionheart</item>
+
+        <item>Who was NOT a queen in medieval England?</item>
+        <item>Catherine Middleton</item>
+        <item>Margaret of Anjou</item>
+        <item>Eleanor of Aquitaine</item>
+        <item>Berengaria of Navarre</item>
+
+        <item>What sport did King Edward II ban in 1314?</item>
+        <item>Football</item>
+        <item>Archery</item>
+        <item>Spear abortion contest</item>
+        <item>Tennis</item>
+
+        <item>Where was Vincent van Gogh born?</item>
+        <item>Netherlands</item>
+        <item>France</item>
+        <item>Sweden</item>
+        <item>Belgium</item>
+
+        <item>How many paintings did Van Gogh sell in his life?</item>
+        <item>1</item>
+        <item>8</item>
+        <item>15</item>
+        <item>21</item>
+
+    </string-array>
+
+
+    <string-array name="GeographyEASY">
+
+    <item>What is Earth\'s largest continent?</item>
+
+    <item>Asia</item>
+
+    <item>Antarctica</item>
+
+    <item>Africa</item>
+
+    <item>Europe</item>
+
+    <item>What country has the most natural lakes?</item>
+
+    <item>Canada</item>
+
+    <item>United States</item>
+
+    <item>India</item>
+
+    <item>Australia</item>
+
+    <item>In what country can you visit Machu Picchu?</item>
+
+    <item>Peru</item>
+
+    <item>Chile</item>
+
+    <item>Columbia</item>
+
+    <item>Bolivia</item>
+
+    <item>Which African nation has the most pyramids?</item>
+
+    <item>Sudan</item>
+
+    <item>Jordan</item>
+
+    <item>Algeria</item>
+
+    <item>Libya</item>
+
+    <item>What is the flattest continent?</item>
+
+    <item>Australia</item>
+
+    <item>Antarctica</item>
+
+    <item>South America</item>
+
+    <item>Africa</item>
+
+    <item>What is the largest country on the Arabian Peninsula?</item>
+
+    <item>Saudi Arabia</item>
+
+    <item>Yemen</item>
+
+    <item>United Arab Emirates</item>
+
+    <item>Jordan</item>
+
+    <item>What country is home to Kangaroo Island?</item>
+
+    <item>Australia</item>
+
+    <item>France</item>
+
+    <item>Japan</item>
+
+    <item>Great Britain</item>
+
+    <item>What is the largest country in South America?</item>
+
+    <item>Brazil</item>
+
+    <item>Columbia</item>
+
+    <item>Argentina</item>
+
+    <item>Peru</item>
+
+    <item>What is the tallest mountain in the world?</item>
+
+    <item>Mount Everest</item>
+
+    <item>Mount Kilimanjaro</item>
+
+    <item>Aconcagua</item>
+
+    <item>Qogir</item>
+
+    <item>What is the only continent with land in all four hemispheres?</item>
+
+    <item>Africa</item>
+
+    <item>Australia</item>
+
+    <item>Asia</item>
+
+    <item>Antarctica</item>
+
+    <item>Helsinki is the capital of which country?</item>
+
+    <item>Finland</item>
+
+    <item>Norway</item>
+
+    <item>Sweden</item>
+
+    <item>Denmark</item>
+
+    <item>Rome is the capital of which country?</item>
+
+    <item>Italy</item>
+
+    <item>Senegal</item>
+
+    <item>France</item>
+
+    <item>Wales</item>
+
+    <item>Amman is the capital of which country?</item>
+
+    <item>Jordan</item>
+
+    <item>Egypt</item>
+
+    <item>Kenya</item>
+
+    <item>Lebanon</item>
+
+    <item>What continent is Ireland part of?</item>
+
+    <item>Europe</item>
+
+    <item>North America</item>
+
+    <item>South America</item>
+
+    <item>Australia</item>
+
+    <item>Which Ocean is the largest by size?</item>
+
+    <item>Pacific Ocean</item>
+
+    <item>Atlantic Ocean</item>
+
+    <item>Indian Ocean</item>
+
+    <item>Arctic Ocean</item>
+
+    <item>How much of our planet is water?</item>
+
+    <item>Greater than 70%</item>
+
+    <item>Greater than 60%</item>
+
+    <item>Greater than 50%</item>
+
+    <item>Less than 50%</item>
+
+    <item>Which ocean lies between North America and Europe?</item>
+
+    <item>Atlantic Ocean</item>
+
+    <item>Arctic Ocean</item>
+
+    <item>Pacific Ocean</item>
+
+    <item>Southern Ocean</item>
+
+    <item>Which is the largest country in the world? (by landmass)</item>
+
+    <item>Russia</item>
+
+    <item>Canada</item>
+
+    <item>China</item>
+
+    <item>United States</item>
+
+    <item>How many oceans are there in the world??</item>
+
+    <item>5</item>
+
+    <item>7</item>
+
+    <item>4</item>
+
+    <item>6</item>
+
+    <item>What is the name of the famous man-made structure in China?</item>
+
+    <item>The Great Wall of China</item>
+
+    <item>The Great Door of China</item>
+
+    <item>The Great Floor of China</item>
+
+    <item>The Great Ceiling of China</item>
+
+    <item>Which country is Vatican City located in?</item>
+
+    <item>Italy</item>
+
+    <item>Cyprus</item>
+
+    <item>Greece</item>
+
+    <item>Spain</item>
+
+    <item>What is the capital city of England?</item>
+
+    <item>London</item>
+
+    <item>Manchester</item>
+
+    <item>Birmingham</item>
+
+    <item>Liverpool</item>
+
+    <item>Which country does the River Nile run through?</item>
+
+    <item>Egypt</item>
+
+    <item>Jordan</item>
+
+    <item>India</item>
+
+    <item>Thailand</item>
+
+    <item>What is the capital city of France?</item>
+
+    <item>Paris</item>
+
+    <item>Lyon</item>
+
+    <item>Marseille</item>
+
+    <item>Toulouse</item>
+
+    <item>What city is the Eiffel Tower located?</item>
+
+    <item>Paris</item>
+
+    <item>Madrid</item>
+
+    <item>London</item>
+
+    <item>Rome</item>
+
+    <item>What is the name of this prehistoric monument located in the English county of Wiltshire?</item>
+
+    <item>Stonehenge</item>
+
+    <item>Rockhenge</item>
+
+    <item>Boulderhenge</item>
+
+    <item>Marblehenge</item>
+
+    <item>Red Square is located in which City?</item>
+
+    <item>Moscow</item>
+
+    <item>St. Petersburg</item>
+
+    <item>London</item>
+
+    <item>New York</item>
+
+    <item>What is the capital city of Russia?</item>
+
+    <item>Moscow</item>
+
+    <item>St. Petersburg</item>
+
+    <item>Novosibirsk</item>
+
+    <item>Yekaterinburg</item>
+
+    <item>In which city is the Statue of Liberty located?</item>
+
+    <item>New York</item>
+
+    <item>Los Angeles</item>
+
+    <item>Miami</item>
+
+    <item>Chicago</item>
+
+    <item>What is the capital city of The United States?</item>
+
+    <item>Washington D.C</item>
+
+    <item>New York</item>
+
+    <item>Los Angeles</item>
+
+    <item>Houston</item>
+
+</string-array>
+
+    <string-array name="Geography_MEDIUM">
+
+    <item>What is the capital city of Malaysia?</item>
+
+    <item>Kuala Lumpur</item>
+
+    <item>Ipoh</item>
+
+    <item>Johor Bahru</item>
+
+    <item>Malacca City</item>
+
+    <item>What razor-thin country accounts for more than half of the western coastline of South America?</item>
+
+    <item>Chile</item>
+
+    <item>Equador</item>
+
+    <item>Bolivia</item>
+
+    <item>Peru</item>
+
+    <item>What river runs through Baghdad?</item>
+
+    <item>Tigris</item>
+
+    <item>Jordan</item>
+
+    <item>Karun</item>
+
+    <item>Euphrates</item>
+
+    <item>What percentage of the River Nile is located in Egypt?</item>
+
+    <item>22%</item>
+
+    <item>83%</item>
+
+    <item>100%</item>
+
+    <item>9%</item>
+
+    <item>What is the driest place on Earth?</item>
+
+    <item>Mcmurdo, Antarctica</item>
+
+    <item>Sahara Desert</item>
+
+    <item>Kufra, Libya</item>
+
+    <item>Atacama Desert</item>
+
+    <item>What is the oldest city in the world?</item>
+
+    <item>Damascus</item>
+
+    <item>Jericho</item>
+
+    <item>Athens</item>
+
+    <item>Jerusalem</item>
+
+    <item>What country has the most coastline?</item>
+
+    <item>Canada</item>
+
+    <item>China</item>
+
+    <item>United States</item>
+
+    <item>Russia</item>
+
+    <item>Which of the following volcanoes is NOT located in Antarctica?</item>
+
+    <item>Mount Napier</item>
+
+    <item>Mount Melbourne</item>
+
+    <item>Mount Berlin</item>
+
+    <item>Mount Hampton</item>
+
+    <item>What continent is located at Latitude 90° S Longitude 0.00° E?</item>
+
+    <item>Antarctica</item>
+
+    <item>Australia</item>
+
+    <item>South America</item>
+
+    <item>Asia</item>
+
+    <item>What city is the capital of Australia?</item>
+
+    <item>Canberra</item>
+
+    <item>Sydney</item>
+
+    <item>Perth</item>
+
+    <item>Melbourne</item>
+
+    <item>Riyadh is the capital of what Middle-Eastern country?</item>
+
+    <item>Saudi Arabia</item>
+
+    <item>Syria</item>
+
+    <item>Yemen</item>
+
+    <item>Iraq</item>
+
+    <item>Which of these African nations is NOT landlocked?</item>
+
+    <item>Congo</item>
+
+    <item>Chad</item>
+
+    <item>Burkina Faso</item>
+
+    <item>Niger</item>
+
+    <item>What is the smallest independent country on Earth?</item>
+
+    <item>Vatican City</item>
+
+    <item>Monaco</item>
+
+    <item>Nauru</item>
+
+    <item>Grenada</item>
+
+    <item>Along with Spain and France, what is the other country to have both Atlantic and Mediterranean coastlines?</item>
+
+    <item>Morocco</item>
+
+    <item>Syria</item>
+
+    <item>Lebanon</item>
+
+    <item>Egypt</item>
+
+    <item>What country occupies the southern end of the Arabian Peninsula?</item>
+
+    <item>Yemen</item>
+
+    <item>Jordan</item>
+
+    <item>Kuwait</item>
+
+    <item>Qatar</item>
+
+    <item>What South American country shares the bulk of the Southern Cone with its neighbor Chile to the west?</item>
+
+    <item>Argentina</item>
+
+    <item>Brazil</item>
+
+    <item>Bolivia</item>
+
+    <item>Paraguay</item>
+
+    <item>What is the tallest mountain in North America?</item>
+
+    <item>Denali</item>
+
+    <item>Mount Steele</item>
+
+    <item>Mount Rushmore</item>
+
+    <item>King Peak</item>
+
+    <item>Montevideo is the capital of what South American country?</item>
+
+    <item>Uruguay</item>
+
+    <item>Suriname</item>
+
+    <item>Peru</item>
+
+    <item>Paraguay</item>
+
+    <item>What U.S. state shares borders with Louisiana, Arkansas, Oklahoma, and New Mexico?</item>
+
+    <item>Texas</item>
+
+    <item>Colorado</item>
+
+    <item>Missouri</item>
+
+    <item>Kansas</item>
+
+    <item>What continent contains the most fresh water?</item>
+
+    <item>Antarctica</item>
+
+    <item>Asia</item>
+
+    <item>Africa</item>
+
+    <item>North America</item>
+
+    <item>What ocean is home to 75% of the Earth\'s volcanoes?</item>
+
+    <item>Pacific</item>
+
+    <item>Atlantic</item>
+
+    <item>Indian</item>
+
+    <item>Arctic</item>
+
+    <item>What is the only major city located on two continents?</item>
+
+    <item>Istanbul</item>
+
+    <item>New Delhi</item>
+
+    <item>London</item>
+
+    <item>Rome</item>
+
+    <item>What is the coldest sea on Earth?</item>
+
+    <item>White Sea</item>
+
+    <item>Persian Gulf</item>
+
+    <item>Baltic Sea</item>
+
+    <item>Caspian Sea</item>
+
+    <item>What is America\'s largest city by surface area?</item>
+
+    <item>Yakutat</item>
+
+    <item>Buford</item>
+
+    <item>Los Angeles</item>
+
+    <item>New York</item>
+
+    <item>What is the oldest active volcano on Earth?</item>
+
+    <item>Mount Etna</item>
+
+    <item>Mount Yasur</item>
+
+    <item>Mount Fuji</item>
+
+    <item>Mount Olympus</item>
+
+    <item>What river runs through Paris?</item>
+
+    <item>Seine</item>
+
+    <item>Thames</item>
+
+    <item>Danube</item>
+
+    <item>Elbe</item>
+
+    <item>What mountain range stretches from the town of Seesen in northwest Germany to Eisleben in the east?</item>
+
+    <item>Harz</item>
+
+    <item>Alps</item>
+
+    <item>Ural Mountains</item>
+
+    <item>Pyranees</item>
+
+    <item>What mountains form part of the conventional boundary between the continents of Europe and Asia?</item>
+
+    <item>Ural Mountains</item>
+
+    <item>Himalayas</item>
+
+    <item>Andes</item>
+
+    <item>Appalachian Mountains</item>
+
+    <item>What is the fastest flowing river in the world?</item>
+
+    <item>Amazon</item>
+
+    <item>Yangtze</item>
+
+    <item>Mississippi</item>
+
+    <item>Congo</item>
+
+    <item>What is the most densely populated country on Earth?</item>
+
+    <item>Monaco</item>
+
+    <item>Shanghai</item>
+
+    <item>New York</item>
+
+    <item>Tokyo</item>
+
+</string-array>
+
+    <string-array name="Geography_HARD">
+
+    <item>What is the only sea without any coasts?</item>
+
+    <item>Sargasso Sea</item>
+
+    <item>Adriatic Sea</item>
+
+    <item>Celebs Sea</item>
+
+    <item>Mediterranean Sea</item>
+
+    <item>What African country served as the setting for Tatooine in Star Wars?</item>
+
+    <item>Tunisia</item>
+
+    <item>Gabon</item>
+
+    <item>Ghana</item>
+
+    <item>Ethiopia</item>
+
+    <item>Which U.S. state has the most active volcanoes?</item>
+
+    <item>Alaska</item>
+
+    <item>Hawaii</item>
+
+    <item>California</item>
+
+    <item>Washington</item>
+
+    <item>What is the deepest point in Earth\'s oceans?</item>
+
+    <item>Mariana Trench</item>
+
+    <item>Tonga Trench</item>
+
+    <item>Eurasian Basin</item>
+
+    <item>Java Trench</item>
+
+    <item>What mountain is nicknamed the "Savage Mountain"?</item>
+
+    <item>K2</item>
+
+    <item>Matterhorn</item>
+
+    <item>Annapurna</item>
+
+    <item>Mount Everest</item>
+
+    <item>What is the highest waterfall in Europe?</item>
+
+    <item>Krimml</item>
+
+    <item>Rhine</item>
+
+    <item>Triberg</item>
+
+    <item>Kjelfossen</item>
+
+    <item>What mountain is closest to the Moon?</item>
+
+    <item>Mount Chimborazo</item>
+
+    <item>Mount Everest</item>
+
+    <item>Mount Pandim</item>
+
+    <item>Nanga Parbat</item>
+
+    <item>What is the largest city in the world based on surface area?</item>
+
+    <item>Hulunbuir</item>
+
+    <item>Dhaka</item>
+
+    <item>Mumbai</item>
+
+    <item>Shanghai</item>
+
+    <item>Which of the following lakes is located in an ancient meteorite impact crater?</item>
+
+    <item>Lake Bosumtwi</item>
+
+    <item>Lake Mweru</item>
+
+    <item>Lake Poopo</item>
+
+    <item>Lake Titicaca</item>
+
+    <item>Of the eight major islands in the Hawaiian Archipelago, what is the only one that is uninhabited?</item>
+
+    <item>Kaho\'olawe</item>
+
+    <item>Coconut Island</item>
+
+    <item>Molokai</item>
+
+    <item>Niihau</item>
+
+    <item>What Hawaiian island is known as "Bird Island"?</item>
+
+    <item>Nihoa</item>
+
+    <item>Kauhula</item>
+
+    <item>Hulu</item>
+
+    <item>Pulemoku</item>
+
+    <item>What U.S. state contains the world\'s largest flat-top mountain?</item>
+
+    <item>Colorado</item>
+
+    <item>Arizona</item>
+
+    <item>Wyoming</item>
+
+    <item>Utah</item>
+
+    <item>What is the oldest city in Texas?</item>
+
+    <item>Nacogdoches</item>
+
+    <item>El Paso</item>
+
+    <item>San Antonio</item>
+
+    <item>De Kalb</item>
+
+    <item>What is the oldest city in India?</item>
+
+    <item>Varanasi</item>
+
+    <item>Patna</item>
+
+    <item>Madurai</item>
+
+    <item>Ujjain</item>
+
+    <item>Which U.S. state has the largest aquifer?</item>
+
+    <item>Nebraska</item>
+
+    <item>Florida</item>
+
+    <item>Texas</item>
+
+    <item>Alaska</item>
+
+    <item>What is the state capital of Oregon?</item>
+
+    <item>Salem</item>
+
+    <item>Hillsboro</item>
+
+    <item>Eugene</item>
+
+    <item>Portland</item>
+
+    <item>What is the capital city of Saskatchewan?</item>
+
+    <item>Regina</item>
+
+    <item>Melville</item>
+
+    <item>Yorkton</item>
+
+    <item>Saskatoon</item>
+
+    <item>Which of these mountain ranges has the highest maximum elevation?</item>
+
+    <item>Andes</item>
+
+    <item>Rockies</item>
+
+    <item>Alps</item>
+
+    <item>Urals</item>
+
+    <item>Which of these rivers flows past the most countries?</item>
+
+    <item>Danube</item>
+
+    <item>Euphrates</item>
+
+    <item>Mississippi</item>
+
+    <item>Amazon</item>
+
+    <item>Which of these bodies of water has the largest surface area?</item>
+
+    <item>Gulf Of Mexico</item>
+
+    <item>Red Sea</item>
+
+    <item>Black Sea</item>
+
+    <item>Persian Gulf</item>
+
+    <item>Which of these countries was NOT a part of the Soviet Union?</item>
+
+    <item>Poland</item>
+
+    <item>Ukraine</item>
+
+    <item>Belarus</item>
+
+    <item>Georgia</item>
+
+    <item>Which of these countries was NEVER part of the British Empire?</item>
+
+    <item>Thailand</item>
+
+    <item>Kenya</item>
+
+    <item>Ireland</item>
+
+    <item>New Zealand</item>
+
+    <item>Stockton and Modesto are located in which state?</item>
+
+    <item>California</item>
+
+    <item>Michigan</item>
+
+    <item>Arkansas</item>
+
+    <item>Delaware</item>
+
+    <item>What is the tenth most populous country on Earth?</item>
+
+    <item>Japan</item>
+
+    <item>Russia</item>
+
+    <item>Nigeria</item>
+
+    <item>Ethiopia</item>
+
+    <item>What is the capital of Nauru?</item>
+
+    <item>Yaren</item>
+
+    <item>Nuku\'alofa</item>
+
+    <item>Canberra</item>
+
+    <item>Funafuti</item>
+
+    <item>Mahajanga is a city in which island country?</item>
+
+    <item>Madagascar</item>
+
+    <item>Cabo Verde</item>
+
+    <item>Comoros</item>
+
+    <item>New Zealand</item>
+
+    <item>Lake Ladoga is in which country?</item>
+
+    <item>Russia</item>
+
+    <item>Finland</item>
+
+    <item>Canada</item>
+
+    <item>United States</item>
+
+    <item>Which of these countries has purple on its flag?</item>
+
+    <item>Dominica</item>
+
+    <item>Kiribati</item>
+
+    <item>Palau</item>
+
+    <item>St. Lucia</item>
+
+    <item>Ogden and Provo are cities in which US state?</item>
+
+    <item>Utah</item>
+
+    <item>Colorado</item>
+
+    <item>Idaho</item>
+
+    <item>Nebraska</item>
+
+    <item>Kaohsiung and Tianan are cities in which country?</item>
+
+    <item>Taiwan</item>
+
+    <item>Japan</item>
+
+    <item>South Korea</item>
+
+    <item>China</item>
+
+</string-array>
+
+</resources>

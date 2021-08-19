@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מי רוצה להיות מליונר</string>
+    <string name="START_BUTTON">התחלה</string>
+    <string name="HIGH_SCORE_BUTTON">תוצאות שיא</string>
+    <string name="CORRECT_ANSWER">אני חושב שהתשובה הנכונה היא </string>
+    <string name="Next_button">הבא</string>
+    <string name="Choose_diff">בחר רמת קושי:</string>
+    <string name="Choose_CATEGORY">בחר קטגוריה:</string>
+    <string name="HARD_DIFF">קשה</string>
+    <string name="MEDIUM_DIFF">בינוני</string>
+    <string name="EASY_DIFF">קל</string>
+    <string name="ENTER_YOUR_NAME">הכנס שם</string>
+    <string name="END_GAME">המשחק נגמר!</string>
+    <string name="WON_MONEY">סכום זכייה: </string>
+    <string name="BACK_TO_MENU">חזרה לתפריט</string>
+    <string name="game_rules_1">ברוכים הבאים למי רוצה להיות מיליונר</string>
+    <string name="game_rules_2">על המתמודד לענות נכון על 15 שאלות רב ברירה ברצף כדי לזכות בקופה. המתמודד רשאי להפסיק בכל עת ולשמור על הכנסותיו. לכל שאלה מוצגת בפניהם השאלה וארבע תשובות אפשריות. אם השחקן יבחר בתשובה הנכונה, הוא יעבור לשאלה הבאה. אחרת הוא יקבל את תגמול השאלה הנוכחית.</string>
+    <string name="game_rules_3">לשחקן יש 3 גלגלי עזרה::</string>
+    <string name="game_rules_4"> חמישים חמישים - הסר שתי תשובות שגויות<br/>
+        קהל - בקש את עזרת הקהל <br/>
+        התקשר בפלאפון - בקש את עזרתו של חבר <br/>
+         תשובות הקהל ושיחת הטלפון עשויות להיות שגויות, לכן קחו זאת בחשבון.</string>
+
+
+    <string-array name="EASY_PROGRAMMING">
+        <item>כמה פעמים HIT יודפס <br/>
+            int main()<br/>
+            while(1)<br/>
+            printf("hit")<br/>
+            return 0</item>
+        <item>אינסוף פעמים</item>
+        <item>שגיאת קומפילציה</item>
+        <item>פעם אחת</item>
+        <item>שגיאת ריצה</item>
+
+        <item>כמה סוגי לולאות יש בC</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+
+        <item>באיזה שנה הומצא C?</item>
+        <item>1972</item>
+        <item>1970</item>
+        <item>1978</item>
+        <item>1979</item>
+
+        <item>מה המשמעות של void sum (int, int);</item>
+        <item>מקבלת מספר ולא מחזירה שום דבר</item>
+        <item>רק מקבלת מספר ומחזירה מספר</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>הרעיון של שתי פונקציות עם אותן שמות נקרא?</item>
+        <item>העמסת פונקציות</item>
+        <item>העמסת אופרטורים</item>
+        <item>החזרת פונקציות</item>
+        <item>שכתוב פונקציות</item>
+
+        <item>מי מהבאים לא חוקי בC</item>
+        <item>mathio.h</item>
+        <item>math.h</item>
+        <item>string.h</item>
+        <item>ctype.h</item>
+
+        <item>מי מהבאים שייך לpow()</item>
+        <item>math.h</item>
+        <item>mathio.h</item>
+        <item>square.h</item>
+        <item>stdio.h</item>
+
+        <item>האם ניתן ליצור פונקציה בתוך מבנה בC</item>
+        <item>לא</item>
+        <item>כן</item>
+        <item>תלוי בקומפיילר</item>
+        <item>כן אבל יהיה שגיאת ריצה</item>
+
+        <item>האם ניתן להחזיר שתי ערכים באותו הפונקציה</item>
+        <item>לא</item>
+        <item>כן</item>
+        <item>תלוי בקומפיילר</item>
+        <item>כן אבל יהיה שגיאת ריצה</item>
+
+        <item>Is it possible to run program without main() function?</item>
+        <item>No</item>
+        <item>Yes</item>
+        <item>Depends on Compiler</item>
+        <item>Yes but run time error</item>
+
+        <item>כמה פונקציות מיין יכול להיות בפרוייקט אחד</item>
+        <item>1</item>
+        <item>2</item>
+        <item>ללא הגבלה</item>
+        <item>תלוי בקומפיילר</item>
+
+        <item>מי מהתוכנות הבאות יותר מהירה</item>
+        <item>C</item>
+        <item>Java</item>
+        <item>PHP</item>
+        <item>Visual Basic</item>
+
+        <item>מי מהבאים מאקרו לא חוקי בC</item>
+        <item>#elseif</item>
+        <item>#error</item>
+        <item>#ifndef</item>
+        <item>#pragma</item>
+
+        <item>קוד האסקי של אפס הוא</item>
+        <item>48D</item>
+        <item>32H</item>
+        <item>0011 1000</item>
+        <item>42H</item>
+
+        <item>קוד האסקי של A הוא</item>
+        <item>41H</item>
+        <item>66D</item>
+        <item>0100 0010</item>
+        <item>0110 0011</item>
+
+        <item>לאיזה אופרטור לא ניתן לבצע העמסת אופרטורים</item>
+        <item>::</item>
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+
+        <item>מה הסינטקס הנכון בלולאה</item>
+        <item>for(initialization;condition; increment/decrement)</item>
+        <item>for(increment/decrement; initialization; condition)</item>
+        <item>for(initialization, condition, increment/decrement)</item>
+        <item>None</item>
+
+        <item>האם ניתן לבצע העמסת פונקציות בCPP</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>אם ניתן לשים לולאה בתוך לולאה</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>האם מבנה יכול להכיל מצביע לעצמו</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>מה הגודל של VOID</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+
+        <item>האם פונקציה יכולה לקרוא לעצמה</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>CPP הוא ערכת על של שאיזה שפה</item>
+        <item>C</item>
+        <item>VB</item>
+        <item>PASCAL</item>
+        <item>BASIC</item>
+
+        <item>כמה אובייקטים ניתן ליצור בקלאס בCPP</item>
+        <item>There is no limit</item>
+        <item>1</item>
+        <item>5</item>
+        <item>256</item>
+
+        <item>מתי הומצא C</item>
+        <item>1972</item>
+        <item>1970</item>
+        <item>1978</item>
+        <item>1979</item>
+
+        <item>מה הגודל של מחלקה ריקה</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+
+        <item>האם ניתן להציב נאל לפוייטק של וויד</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>האם ניתן ליצור מערך של מצביעים</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+        <item>איפה הטיפול בחריגות נתפס</item>
+        <item>זמן ריצה</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאה סמנטית</item>
+        <item>בשום מקום</item>
+
+        <item>האם ניתן להעמיס בנאי</item>
+        <item>כן</item>
+        <item>לא</item>
+        <item>שגיאת קומפילציה</item>
+        <item>שגיאת ריצה</item>
+
+    </string-array>
+
+    <string-array name="MEDIUM_PROGRAMMING">
+        <item>מי המילים השמורות הבאות משתמשים כדי ליצור מחלקה</item>
+        <item>class</item>
+        <item>struct</item>
+        <item>int</item>
+        <item>none of the mentioned</item>
+
+        <item>מי מהאופרטורים הבאים משתמשים כדי להקצות זיכרון לאובייקט</item>
+        <item>new</item>
+        <item>malloc</item>
+        <item>give</item>
+        <item>alloc</item>
+
+        <item>מה הערך שמשתנה בולאני יכול להכיל</item>
+        <item>True False</item>
+        <item>0 1</item>
+        <item>כל מספר כלשהו</item>
+        <item>true</item>
+
+        <item>מה מהבאים הצהרה נכונה למשתנה בולאני</item>
+        <item>boolean b3 = false;</item>
+        <item>boolean b2 = ‘false’;</item>
+        <item>boolean b1 = 1;</item>
+        <item>boolean b4 = ‘true’</item>
+
+        <item>&lt; מה מהבאים יכול לחזור עם האופרטור </item>
+        <item>Integer או Boolean</item>
+        <item>Integer</item>
+        <item>Boolean</item>
+        <item>Character</item>
+
+        <item>מה לא יכול להיות מוכל בשם משתנה</item>
+        <item>keyword</item>
+        <item>identifier</item>
+        <item>identifier וגם keyword</item>
+        <item>אף אחד מהם</item>
+
+        <item>מה מהבאים הצהרה לא נכונה</item>
+        <item>int arr[] = int [5] new</item>
+        <item>int arr[] = new int[5]</item>
+        <item>int [] arr = new int[5]</item>
+        <item>int arr[] = new int[5]</item>
+
+        <item>מה מהבאים חייב להיות מוגדר בהצהרה על מערך</item>
+        <item>שורה</item>
+        <item>עמודה</item>
+        <item>שורה ועמודה</item>
+        <item>אף אחד מהם</item>
+
+        <item>מי מבאים יכול להיות מבוצע בפעולות אריתמטיות</item>
+        <item>Numeric וגם Characters</item>
+        <item>Numeric</item>
+        <item>Boolean</item>
+        <item>Characters</item>
+
+        <item>על מי פעולת המודות יכולה להיות מבוצעת</item>
+        <item>Integers וגם floating – point numbers</item>
+        <item>Integers</item>
+        <item>Floating </item>
+        <item>None of the mentioned</item>
+
+        <item>בכמה האופרטור -- מפחית מהערך </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+        <item>מה מהבאים לא אופרטור פעולות על ביטים</item>
+        <item>&lt;=</item>
+        <item>&amp;</item>
+        <item>&amp;=</item>
+        <item>|=</item>
+
+        <item>מה הפלט של אופרטורים יחסיים</item>
+        <item>Boolean</item>
+        <item>Integer</item>
+        <item>Characters</item>
+        <item>Double</item>
+
+        <item>“equal to” מה מחזיר </item>
+        <item>Boolean</item>
+        <item>Floating – point numbers</item>
+        <item>Integers</item>
+        <item>אף אחד מהם</item>
+
+        <item>מה מהבאים נכון?</item>
+        <item>נכון ולא נכון הם לא נומריים</item>
+        <item>נכון ולא נכון הם נומריים המכילים 1 ו 0</item>
+        <item>נכון ולא נכון הם נומריים המכילים 0 ו 1</item>
+        <item>אף אחד מהם</item>
+
+        <item>מי מהבאים בודק רק שוויון?</item>
+        <item>switch</item>
+        <item>if</item>
+        <item>if וגם swtitch</item>
+        <item>אף אחד מהם</item>
+
+        <item>מי מהבאים הוא משפט בחירה בגאווה</item>
+        <item>if()</item>
+        <item>for()</item>
+        <item>continue</item>
+        <item>break</item>
+
+        <item>מי מהקפיצות הבאות יכול להמשיך את עיבוד הקוד</item>
+        <item>continue</item>
+        <item>return</item>
+        <item>exit</item>
+        <item>break</item>
+
+        <item>מה נכון לגבי BREAK</item>
+        <item>Break halts the execution and forces the control out of the loop</item>
+        <item>Break stops the execution of entire program</item>
+        <item>Break forces the control out of the loop and starts the execution of next iteration</item>
+        <item>Break halts the execution of the loop for certain time frame</item>
+
+        <item>What is true about do statement</item>
+        <item>do statement does not get execute if condition is not matched in the first iteration</item>
+        <item>do statement executes the code of a loop at least once</item>
+        <item>do statement checks the condition at the beginning of the loop</item>
+        <item>do statement executes the code more than once always</item>
+
+        <item>מה הבאים משומש בSWITCH</item>
+        <item>break</item>
+        <item>Continue</item>
+        <item>Exit</item>
+        <item>do</item>
+
+        <item>מה הבאים לא קשור לקבלת החלטות</item>
+        <item>do-while</item>
+        <item>switch</item>
+        <item>if</item>
+        <item>if-else</item>
+
+        <item>מה הבאים הוא לא קפיצה חוקית</item>
+        <item>goto</item>
+        <item>break</item>
+        <item>continue</item>
+        <item>return</item>
+
+        <item>מה הבאים הוא לא בקר זרימה</item>
+        <item>exit()</item>
+        <item>break</item>
+        <item>continue</item>
+        <item>return</item>
+
+        <item>מה הבאים הוא לא חלק מתכנות מונחה עצמים?</item>
+        <item>קומפילציה</item>
+        <item>ירושה</item>
+        <item>אנקפסולציה</item>
+        <item>פולימורפיזם</item>
+
+        <item>מתי עמסה נקבע</item>
+        <item>בזמן קומפילציה</item>
+        <item>בזמן ריצה</item>
+        <item>בזמן הקוד</item>
+        <item>בזמן ביצוע הקוד</item>
+
+        <item>איזה קונספט מושג בעזרת שילוב מתודות ותכונות לתוך מחלקה</item>
+        <item>אנקפסולציה</item>
+        <item>ירושה</item>
+        <item>פולימורפיזם</item>
+        <item>אבסטרקציה</item>
+
+        <item>העמסה היא שילוב של פולימורפיזם והורשה</item>
+        <item>נכון</item>
+        <item>לא נכון</item>
+        <item>תלוי קומפיילר</item>
+        <item>רק בגאווה</item>
+
+        <item>מה יהיה התוצאה אם נשתמש ב this() בפונקציה</item>
+        <item>שגיאת קומפלציה</item>
+        <item> שגיאת ריצה</item>
+        <item>אקספטשן</item>
+        <item>ריצה מוצלחת</item>
+
+        <item>מה נכון לגבי בנאי</item>
+        <item>יכול לקבל מספר לא מוגבל של משתנים</item>
+        <item>יכול לקבל משתנה החזקה</item>
+        <item>כולם לא נכונים</item>
+        <item>בנאי לא יכול לזרוק אקספטשן </item>
+
+    </string-array>
+
+    <string-array name="HARD_PROGRAMMING">
+        <item>מי ידוע כאבי שפת הגאווה</item>
+        <item>גיימס ארתור גוסלינג</item>
+        <item>מ.פ.גאווה</item>
+        <item>צארלס בבג</item>
+        <item>בלז פסקל</item>
+
+        <item>מי מספק את סביבת העבודה בגאווה?</item>
+        <item>JVM</item>
+        <item>JDK</item>
+        <item>JRE</item>
+        <item>JAVAC</item>
+
+        <item>מה זה הביט קוד בגאווה?</item>
+        <item>קוד הנוצר על ידי הקומפיילר</item>
+        <item>קוד הנוצר על ידי המכונה הוירטואלית</item>
+        <item>השם של הקובץ סורס של גאווה</item>
+        <item>Block of code written inside a class</item>
+
+        <item>מי מהבאים היא לא מילת מפתח בגאווה</item>
+        <item>then</item>
+        <item>double</item>
+        <item>switch</item>
+        <item>instanceof</item>
+
+        <item>לאיזה אופרטור העדיפות הגבוהה</item>
+        <item>()</item>
+        <item>++</item>
+        <item>*</item>
+        <item>--</item>
+
+        <item>איזה משתנה נוצר עם מילת הפתח NEW</item>
+        <item>משתנה אובייקט</item>
+        <item>משתנה לוקאלי</item>
+        <item>משתנה מחלקה</item>
+        <item>משתנה סטטי</item>
+
+        <item>במקור גאווה נקראה:</item>
+        <item>Oak</item>
+        <item>Sumatra</item>
+        <item>J++</item>
+        <item>Pine</item>
+
+        <item>מה הוא האוסף זבל בגאווה</item>
+        <item>אובייקט המשתמש בזכרון ללא מצביע יוקצע מחודש.</item>
+        <item>גאווה מוחקת את כל קבצי הגאווה הלא מנוצלים</item>
+        <item>אף אחד מהם</item>
+        <item>כל החבילות הלא משומשות נמחקות אוטומטית</item>
+
+        <item>מהו התבנית ליצירת אובייקט חדש</item>
+        <item>A class</item>
+        <item>An Array</item>
+        <item>Interface</item>
+        <item>Method</item>
+
+        <item>באיזה סימן משתמשים כדי להשים ערף אוטומטי בערך </item>
+        <item>סוגרים מסולסלות</item>
+        <item>סוגרים עגולות</item>
+        <item>נקודה פסיק</item>
+        <item>פסיק</item>
+
+        <item>מה נכון לגבי בנאי</item>
+        <item>כל התשובות נכומות</item>
+        <item>חייב להיות לבנאי את אותו השם כמו שם המחלקה.</item>
+        <item>הבנאי משומש ליצירת אובייקט</item>
+        <item>הבנאי לפעמים יהיה פרטי</item>
+
+        <item>מי מהבאים הוא לא פונקציה בתהליכון</item>
+        <item>go()</item>
+        <item>yield()</item>
+        <item>sleep(long msec)</item>
+        <item>stop()</item>
+
+        <item>לאופרטור חילוק יש תיעדוף____לאופרטור כפל </item>
+        <item>שווה</item>
+        <item>גבוה</item>
+        <item>נמוך</item>
+        <item>אף תשובה אינה נכונה</item>
+
+        <item>מה השם המלא של JVM</item>
+        <item>Java Virtual Machine</item>
+        <item>Java Very Large Machine</item>
+        <item>Java Verified Machine</item>
+        <item>Java Very Small Machine</item>
+
+        <item>בגאווה,קוד שמתחיל ב/* ונגמר ב*/ נקרא</item>
+        <item>הערה רב שורתית</item>
+        <item>הערה חד שורתית</item>
+        <item>אף תשובה אינה נכונה</item>
+        <item>מערך</item>
+
+        <item>מי מהבאים הוא לא משתנה בגאווה</item>
+        <item>friendly</item>
+        <item>public</item>
+        <item>private</item>
+        <item>transient</item>
+
+        <item>מי מהבאים הוא לא מילה שמורה בC</item>
+        <item>main</item>
+        <item>auto</item>
+        <item>case</item>
+        <item>register</item>
+
+        <item>שם משתנה בC יכול לתהחיל ב:</item>
+        <item>קן תחתון</item>
+        <item>מספר</item>
+        <item>סימן פלוס</item>
+        <item>כוכבית</item>
+
+        <item>מי הלולאה שתרוץ לפחות פעם אחת</item>
+        <item>do-while</item>
+        <item>For</item>
+        <item>while</item>
+        <item>if</item>
+
+        <item> מי פיתח את שפת פייטון?</item>
+        <item>חידו ואן רוסום</item>
+        <item>זים דאן</item>
+        <item>נין סטורם</item>
+        <item>גוידו ואן רוסום</item>
+
+        <item>באיזה שנה פותחה שפת פייטון?</item>
+        <item>1989</item>
+        <item>1981</item>
+        <item>1972</item>
+        <item>1995</item>
+
+        <item>באיזה שפה פותח פייטון</item>
+        <item>C</item>
+        <item>PHP</item>
+        <item>English</item>
+        <item>All of the above</item>
+
+        <item>מה הסיומת של קובץ פייטון?</item>
+        <item>.py</item>
+        <item>.python</item>
+        <item>.p</item>
+        <item>None of these</item>
+
+        <item>מה מההצהרות הבאות אינו נכון</item>
+        <item>אף תשובה אינה נכונה</item>
+        <item>_x = 2</item>
+        <item>__x = 3</item>
+        <item>__xyz__ = 5</item>
+
+        <item> מה מהבאים הוא לא מילה שמורה בפייטון</item>
+        <item>val</item>
+        <item>raise</item>
+        <item>try</item>
+        <item>with</item>
+
+        <item>מי מהבאים הוא שם משתנה נכון בפייטון</item>
+        <item>אורך אינסופי</item>
+        <item>כל שמות המשנה צריכים להתחיל בקו תחתון.</item>
+        <item>אורך שם המשתנה חייב להיות מקסימום שתיים.</item>
+        <item> כל התשובות נכונות</item>
+
+        <item>מה מההצהרות הבאות לא נכון בשפת פייטון</item>
+        <item>x y z p = 5000 6000 7000 8000</item>
+        <item>xyzp = 5,000,000</item>
+        <item>x,y,z,p = 5000, 6000, 7000, 8000</item>
+        <item>x_y_z_p = 5,000,000</item>
+
+        <item>מי מהבאים לא יכול להית שם משתנה בפייטון</item>
+        <item>try</item>
+        <item>_val</item>
+        <item>_try_</item>
+        <item>val</item>
+
+        <item>איזה מהפונקציות הבאות היא פוקציה דיפולטיבית של פייטון?</item>
+        <item>print()</item>
+        <item>val()</item>
+        <item>None of these</item>
+        <item>pow()</item>
+
+        <item>round(4.576) הפלט הוא </item>
+        <item>5</item>
+        <item>4</item>
+        <item>576</item>
+        <item>4.5</item>
+
+    </string-array>
+
+    <string-array name="EASY_PERSONS">
+        <item>למי מבין הבאים מיוחסת האמירה \'אאוריקה\'?</item>
+        <item>ארכימדס</item>
+        <item>פיתגורס</item>
+        <item>לאונרדו דה וינצ\'י</item>
+        <item>גלילאו גליליי</item>
+
+        <item>איזה דמות מקראית נבעלה על ידי ליוויתן?</item>
+        <item>יונה הנביא</item>
+        <item>אליהו הנביא</item>
+        <item>איוב</item>
+        <item>אברהם אבינו</item>
+
+        <item>מי נכנס להיכל התהילה לנשים בקולורדו כי "בדנבר היא גילתה את הציונות"</item>
+        <item>גולדה מאיר</item>
+        <item>בנזיר בוטו</item>
+        <item>אינדירה גנדי</item>
+        <item>קוראזון אקינו</item>
+
+        <item>מיהו השחקן שהפך להיות נשיא ארה"ב?</item>
+        <item>רונאלד ריגן</item>
+        <item>ג\'ון קנדי</item>
+        <item>תיאודור רוזוולט</item>
+        <item>פרנקלין רוזוולט</item>
+
+        <item>מיהו מנהיג השחורים בדרום אפריקה שנלחם בגבורה בגזענות?</item>
+        <item>נלסון מנדלה</item>
+        <item>רודני קינג</item>
+        <item>מרתין לותר קינג</item>
+        <item>מתיו קינג</item>
+
+        <item>מי מהבאים היה מנהיג פוליטי ורוחני חשוב בהודו?</item>
+        <item>מהאטמה גנדי</item>
+        <item>ז\'ק שיראק</item>
+        <item>מיכאל גורבצ\'וב</item>
+        <item>ג\'ון אדאמס</item>
+
+        <item>פידל קסטרו הוא דמות מהפכנית שהפך להיות ראש ממשלת ______.</item>
+        <item>קובה</item>
+        <item>מקסיקו</item>
+        <item>גוואטמלה</item>
+        <item>ארגנטינה</item>
+
+        <item>מיהו הנשיא ה-16 של ארה"ב שהוביל לניצחון במלחמת האזרחים?</item>
+        <item>אברהם לינקולן</item>
+        <item>ג\'ורג\' וושינטון</item>
+        <item>תומס ג\'פרסון</item>
+        <item>רוזוולט</item>
+
+        <item>מי הכה בסלע פעמיים במקום לדבר אל הסלע?</item>
+        <item>משה</item>
+        <item>אהרון</item>
+        <item>יעקב</item>
+        <item>שמשון</item>
+
+        <item>מי הייתה אמו של המלך שלמה?</item>
+        <item>בת שבע</item>
+        <item>רבקה</item>
+        <item>הגר</item>
+        <item>אביגיל</item>
+
+        <item>מי היה אביו של המלך שלמה?</item>
+        <item>דויד</item>
+        <item>ירבעם</item>
+        <item>רחבעם</item>
+        <item>שאול</item>
+
+        <item>מי מהבאים לא היה אחיו של שלמה המלך?</item>
+        <item>אבינדב</item>
+        <item>אבשלום</item>
+        <item>אמנון</item>
+        <item>אדוניה</item>
+
+        <item>איזו מלכה ביקרה את המלך שלמה לאחר ששמעה על מידת חכמתו?</item>
+        <item>מלכת שבא</item>
+        <item>מלכת מצרים</item>
+        <item>המלכה אסתר</item>
+        <item>מלכת פרס</item>
+
+        <item>מי היהודייה שהפכה למלכת פרס?</item>
+        <item>אסתר</item>
+        <item>דבורה</item>
+        <item>איזבל</item>
+        <item>פרסיליה</item>
+
+        <item>מי החביאה את שני המרגלים בביתה?</item>
+        <item>רחב</item>
+        <item>נעמי</item>
+        <item>גומר</item>
+        <item>יעל</item>
+
+        <item>מי הייתה אשתו הראשונה של יעקב?</item>
+        <item>לאה</item>
+        <item>הגר</item>
+        <item>מרה</item>
+        <item>רבקה</item>
+
+        <item>מי הייתה אחותם של משה ואהרון?</item>
+        <item>מרים</item>
+        <item>תרצה</item>
+        <item>רות</item>
+        <item>בלהה</item>
+
+        <item>מי הייתה אמו של משה רבנו?</item>
+        <item>יוכבד</item>
+        <item>ציפורה</item>
+        <item>מרים</item>
+        <item>תמר</item>
+
+        <item>באיזו מדינה מודרנית של היום נולד הפילוסוף הקומוניסטי קרל מרקס?</item>
+        <item>גרמניה</item>
+        <item>צרפת</item>
+        <item>אנגליה</item>
+        <item>אוסטריה</item>
+
+        <item>מי ידוע בכינוי \'אבי הרפואה\'?</item>
+        <item>היפוקרטס</item>
+        <item>הסיוד</item>
+        <item>סנטוריון</item>
+        <item>אוגוסטוס</item>
+
+        <item>מי היה מלך מקדוניה שניצח את הפרסים?</item>
+        <item>אלכסנדר הגדול</item>
+        <item>סירוס הגדול</item>
+        <item>לואי ה-14</item>
+        <item>אף אחת מהתשובות</item>
+
+        <item>מי היה הקיסר הראשון ברומא העתיקה?</item>
+        <item>אוגוסטוס</item>
+        <item>יוליוס קיסר</item>
+        <item>אנטוניוס</item>
+        <item>קלאודיוס</item>
+
+        <item>מהו שם משפחתו המקורי של שמעון פרס?</item>
+        <item>פרסקי</item>
+        <item>פולנסקי</item>
+        <item>פרסקוף</item>
+        <item>פרסקוביץ</item>
+
+        <item>מהי ארץ מוצאו של לודוויג ואן בטהובן?</item>
+        <item>גרמניה</item>
+        <item>אוסטריה</item>
+        <item>הונגריה</item>
+        <item>שוויץ</item>
+
+        <item>מי האל הבכיר ביותר באולימפוס?</item>
+        <item>זאוס</item>
+        <item>אפולו</item>
+        <item>פוסידון</item>
+        <item>אתנה</item>
+
+        <item>מי היא האמא של פגסוס (הסוס עם הכנפיים)?</item>
+        <item>מדוזה</item>
+        <item>אפרודיטה</item>
+        <item>אתנה</item>
+        <item>הרה</item>
+
+        <item>איך אדיפוס ניצח את הספינקס?</item>
+        <item>הוא ענה נכון על החידה שלה</item>
+        <item>הוא שיפד אותה על מקל מחודד</item>
+        <item>הציב לפניה מראה והפחיד אותה עם הבבואה שלה</item>
+        <item>הוא גייס את כל האלים שיעזרו לו</item>
+
+        <item>איזה אל הוא בעלה של אפרודיטה?</item>
+        <item>הפייסטוס</item>
+        <item>ארס</item>
+        <item>אפולו</item>
+        <item>הרמס</item>
+
+        <item>מי היא אלת הנישואין?</item>
+        <item>הרה</item>
+        <item>אתנה</item>
+        <item>אפרודיטה</item>
+        <item>פרספונה</item>
+
+        <item>מי גנב לאלים את האש והביא אותה לבני האדם?</item>
+        <item>פרומתאוס</item>
+        <item>הרקולס</item>
+        <item>קרונוס</item>
+        <item>אורנוס</item>
+
+    </string-array>
+
+    <string-array name="MEDIUM_PERSONS">
+        <item>מתי מלך המלך תות ענח אמון?</item>
+        <item>בשנת 14 לפני הספירה</item>
+        <item>בשנת 15 לפני הספירה</item>
+        <item>בשנת 10 לספירה</item>
+        <item>בשנת 12 לספירה</item>
+
+        <item>מי היה הקיסר הראשון של רוסיה?</item>
+        <item>פיטר הראשון</item>
+        <item>אדוארד הראשון</item>
+        <item>לואי ה-14</item>
+        <item>אדוארד השני</item>
+
+        <item>אדוארד הראשון היה מלך ______.</item>
+        <item>אנגליה</item>
+        <item>סקוטלנד</item>
+        <item>צרפת</item>
+        <item>בלגיה</item>
+
+        <item>מי מהבאים היה מלך ספרד ופורטוגל?</item>
+        <item>פיליפ השני</item>
+        <item>פיליפ הראשון</item>
+        <item>אדוארד הראשון</item>
+        <item>אף אחד מהם</item>
+
+        <item>סיירוס הגדול הפך למלך ______ בשנת 546 לפני הספירה.</item>
+        <item>פרס</item>
+        <item>צרפת</item>
+        <item>ספרד</item>
+        <item>תורכיה</item>
+
+        <item>מי היה מלך מקדוניה שכבש את האימפריה הפרסית?</item>
+        <item>סיירוס הגדול</item>
+        <item>נפולאון</item>
+        <item>ג\'ינג\'ס חאן</item>
+        <item>אלכסנדר הגדול</item>
+
+        <item>היוונים האמינו שהאלים שוכנים בקצה הר האולימפוס. מי היה האל ששלט על האלים האחרים?</item>
+        <item>זאוס</item>
+        <item>יופיטר</item>
+        <item>אפלטון</item>
+        <item>אפולו</item>
+
+        <item>מה היה תפקידו היומיומי החשוב של האל אפולו?</item>
+        <item>לרכב בשמיים על מרכבת השמש שלו</item>
+        <item>לנקות את הירח</item>
+        <item>לדאוג לרווחתם של האלים האחרים</item>
+        <item>לספק מזון לאשתו של זאוס</item>
+
+        <item>מי שראה את האל הזה ללא מסכה היה משתגע או מת. מיהו האל הזה?</item>
+        <item>דיוניסוס</item>
+        <item>פוסידון</item>
+        <item>אפולו</item>
+        <item>הדס</item>
+
+        <item>מי היה האל השני בחשיבותו אחרי זאוס?</item>
+        <item>פוסידון, אל הים</item>
+        <item>ארס, אל המלחמות</item>
+        <item>דמטר, אלת התבואה</item>
+        <item>הרה, אשתו של זאוס</item>
+
+        <item>כאשר פוסידון, אל הים, כועס הוא משתמש בקלשון כדי ל________.</item>
+        <item>לגרום לסערות בים ולהרס ספינות</item>
+        <item>לצוד לוויתנים</item>
+        <item>לשוט על פני המים</item>
+        <item>לצוד את בעלי החיים בים</item>
+
+        <item>איזה אל בלע את ילדיו מחשש שידיח אותו ויתפוס את מקומו?</item>
+        <item>קרונוס</item>
+        <item>הדס</item>
+        <item>פוסידון</item>
+        <item>אריס</item>
+
+        <item> העיר אתונה נקראת על שם אתנה שהייתה ________.</item>
+        <item>בתו של זאוס</item>
+        <item>כלתו של זאוס</item>
+        <item>בתו של פוסידון</item>
+        <item>אחותו של אפולו</item>
+
+        <item>מי הייתה אלת האהבה והיופי?</item>
+        <item>אפרודיטה</item>
+        <item>הסטיה</item>
+        <item>הרה</item>
+        <item>אתנה</item>
+
+        <item>האל ארוס החזיק בידו חץ וקשת. מה קרה לאנשים שהחץ פגע בלבם?</item>
+        <item>הם התאהבו</item>
+        <item>הם הפכו עיוורים</item>
+        <item>הם הפכו חרשים</item>
+        <item>הם מתו</item>
+
+        <item>היכן נולד אלברט איינשטיין?</item>
+        <item>גרמניה</item>
+        <item>אוסטריה</item>
+        <item>בלגיה</item>
+        <item>ארצות הברית</item>
+
+        <item>באיזה מוסד מהמוסדות הבאים לימד אלברט איינשטיין?</item>
+        <item>אוניברסיטת ברלין</item>
+        <item>אוניברסיטת ייל</item>
+        <item>אוניברסיטת הרווארד</item>
+        <item>אוניברסיטת פריז</item>
+
+        <item>כאשר איינשטיין נפטר בשנת 1955, רופא אמריקאי הסיר את מוחו ו _______________.</item>
+        <item>כל התשובות נכונות</item>
+        <item>מסר אותו לצוות מדענים במטרה לחקרו</item>
+        <item>שמר אותו במשך 40 שנה</item>
+        <item>שם אותו בצנצנת, לקח אותה לביתו וסרב להשיבה</item>
+
+        <item>היכן נולד בנימין זאב הרצל?</item>
+        <item> בודפשט, הונגריה</item>
+        <item>בוקרשט, רומניה</item>
+        <item> וינה, אוסטריה</item>
+        <item>לונדון, אנגליה</item>
+
+        <item>באיזה תחום להרצל היה תואר דוקטור?</item>
+        <item>משפטים</item>
+        <item>מדעי הטבע</item>
+        <item>כלכלה</item>
+        <item>יחסים בינלאומיים</item>
+
+        <item>מה היה תפקידו של הרצל במשפט דרייפוס?</item>
+        <item>עיתונאי שסיקר את המשפט</item>
+        <item>דובר התנועה הציונית</item>
+        <item>ציג מטעם ממשלת אוסטריה</item>
+        <item>נציג ההתיישבות היהודית</item>
+
+        <item>באיזו שנה הועלו עצמותיו של הרצל לקבורה בישראל?</item>
+        <item>1949</item>
+        <item>1932</item>
+        <item>1961</item>
+        <item>1958</item>
+
+        <item>אלכסנדר הגדול כבש את ________.</item>
+        <item>אסיה</item>
+        <item>אפריקה</item>
+        <item>הודו</item>
+        <item>אירופה</item>
+
+        <item>מי היה מורהו הרוחני של אלכסנדר הגדול?</item>
+        <item>אריסטו</item>
+        <item>סוקרטס</item>
+        <item>אביו</item>
+        <item>אימו</item>
+
+        <item>באיזו עיר מת אלכסנדר הגדול?</item>
+        <item>בבל</item>
+        <item>אתונה</item>
+        <item>ירושלים</item>
+        <item>רומא</item>
+
+        <item>מי שאל את מי - רָשָׁע לָמָּה תַכֶּה רֵעֶךָ</item>
+        <item>משה שאל שני אנשים עבריים</item>
+        <item>גולית את דוד, אחרי שזרק עליו אבן</item>
+        <item>פרעה את משה ואהרון לאחר מכת דם</item>
+        <item>ירמיהו את השרים שהשליכוהו לבור</item>
+
+        <item>מי שאל את מי - הֲרָצַחְתָּ וְגַם יָרָשְׁתָּ</item>
+        <item>אליהו את אחאב בשם ה</item>
+        <item>נתן הנביא את דוד בשם ה</item>
+        <item>יהמיהו את יאשיהו בשם ה</item>
+        <item>אלוהים את קין</item>
+
+        <item>מי שאל את מי - אַיֶּכָּה</item>
+        <item>אלוהים את אדם הראשון</item>
+        <item>אלוהים את הנחש</item>
+        <item>אלוהים את יונה הנביא</item>
+        <item>איוב את אלוהים</item>
+
+        <item>מי שאל את מי - הֲכֶלֶב אָנֹכִי</item>
+        <item>גוליית את דוד</item>
+        <item>הנחש את חוה</item>
+        <item>לוט את אברהם</item>
+        <item>דוד את שאול</item>
+
+        <item>מי שאל את מי - לָמֶה תִבְכִּי וְלָמֶה לֹא תֹאכְלִי</item>
+        <item>אלקנה את חנה</item>
+        <item>יעקב את רחל</item>
+        <item>אמנון את תמר</item>
+        <item>עלי הכהן את חנה</item>
+
+    </string-array>
+
+    <string-array name="HARD_PERSONS">
+        <item>מי היה האדם הראשון שזכה בפרס נובל?</item>
+        <item>מארי קורי</item>
+        <item>לינוס פאולינג</item>
+        <item>פרדריק סנגר</item>
+        <item>ג\'ון ברדין</item>
+
+        <item>מה הייתה המצאתו של אלפרד נובל, שעל שמו נקרא הפרס?</item>
+        <item>דינמיט</item>
+        <item>פצצת אטום</item>
+        <item>טלסקופ</item>
+        <item>רדיו</item>
+
+        <item>על מה זכה אלברט איינשטיין בפרס נובל?</item>
+        <item>גילוי חוק האפקט הפוטואלקטרי</item>
+        <item>הוא לא זכה בפרס נובל</item>
+        <item>תיאוריית היחסות</item>
+        <item>גילוי החור השחור</item>
+
+        <item>באיזו שנה קיבלו יצחק רבין, שמעון פרס ויאסר ערפת, את פרס נובל לשלום?</item>
+        <item>1994</item>
+        <item>1997</item>
+        <item>1993</item>
+        <item>1989</item>
+
+        <item>מיהי האישה היחידה בהיסטוריה שזכתה בשני פרסי נובל?</item>
+        <item>מארי קירי</item>
+        <item>דורותי קראופוט</item>
+        <item>איירן קירי</item>
+        <item>אף אישה לא זכה בשני פרסי נובל</item>
+
+        <item>וינסטון צ\'רציל קיבל פרס נובל בשנת 1953. באיזה תחום הוענק לו הפרס?</item>
+        <item>ספרות</item>
+        <item>שלום</item>
+        <item>פיזיקה</item>
+        <item>כימיה</item>
+
+        <item>איזה מהמנהיגים הבולטים הבאים לא קיבל אף פעם פרס נובל?</item>
+        <item>מהאטמה גאנדי</item>
+        <item>נלסון מנדלה</item>
+        <item>מרתין לותר קינג</item>
+        <item>כולם קיבלו פרס נובל</item>
+
+        <item>באיזו שנה קיבלו אנואר סאדאת ומנחם בגין יחד את פרס נובל לשלום?</item>
+        <item>1978</item>
+        <item>1975</item>
+        <item>1973</item>
+        <item>1974</item>
+
+        <item>מי מבין היהודים הבאים לא זכה בפרס נובל?</item>
+        <item>עמוס עוז</item>
+        <item>הנרי קיסינג\'ר</item>
+        <item>מנחם בגין</item>
+        <item>אלי ויזל</item>
+
+        <item>באיזו עיר בארה"ב נולד סטיב ג\'ובס?</item>
+        <item>סן פרנסיסקו</item>
+        <item>שיקגו</item>
+        <item>בוסטון</item>
+        <item>ניו יורק</item>
+
+        <item>מי היה השותף של סטיב ג\'ובס בהקמת אפל?</item>
+        <item>סטיב ווזניאק</item>
+        <item>ביל גייטס</item>
+        <item>ג\'ון סקאלי</item>
+        <item>לא היה לו שותף, הוא הקים את אפל לבדו</item>
+
+        <item>איזו חברה הקים סטיב ג\'ובס לאחר שעזב את אפל?</item>
+        <item>נקסט</item>
+        <item>מיקרוסופט</item>
+        <item>אי בי אם</item>
+        <item>פיקסר</item>
+
+        <item>באיזו שנה פרש סטיב ג\'ובס סופית מניהול אפל?</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2012</item>
+
+        <item>מי שאל את מי - מֵאַיִן לִי בָּשָׂר לָתֵת לְכָל הָעָם הַזֶּה</item>
+        <item>משה את אלוהים</item>
+        <item>משה את אהרון</item>
+        <item>נח את אלוהים</item>
+        <item>יוסף את פרעה</item>
+
+        <item>מי שאל את מי - עַד מָתַי תִּשְׁתַּכָּרִין</item>
+        <item>עלי הכהן את חנה</item>
+        <item>אחאב את איזבל</item>
+        <item>אלקנה את חנה</item>
+        <item>מרדכי את אסתר</item>
+
+        <item>מי שאל את מי - לָמָה עֲזַבְתָּנִי</item>
+        <item>דוד את אלוהים</item>
+        <item>איוב את אלוהים</item>
+        <item>יונה את אלוהים</item>
+        <item>ירמיהו את אלוהים</item>
+
+        <item>מי שאל את מי - מַדּוּעַ פְּנֵיכֶם רָעִים הַיּוֹם</item>
+        <item>יוסף את סריסי פרעה</item>
+        <item>לוט את המלאכים</item>
+        <item>אברהם את המלאכים</item>
+        <item>יעקב את שמעון ולוי</item>
+
+        <item>מי שאל את מי - מִי בֶחָצֵר</item>
+        <item>אחשוורוש את משרתיו</item>
+        <item>המן את זרש</item>
+        <item>אסתר את אחשוורוש</item>
+        <item>חרבונא את ויזתא</item>
+
+        <item>באיזה ועידה נפגשו מנהיגי הנאצים כדי לתכנן את "הפיתרון הסופי" ל"שאלת היהודים"?</item>
+        <item>ועידת ואנזה</item>
+        <item>ועידת פוטסדם</item>
+        <item>ועידת יאלטה</item>
+        <item>ועידת קזבלנקה</item>
+
+        <item>מה היה שמו של חיל העילית במדים שחורים של המפלגה הנאצית, שהקים אדולף היטלר כשומר ראשו?</item>
+        <item>האס אס</item>
+        <item>איינזצגרופן</item>
+        <item>גסטפו</item>
+        <item>חולצה שחורה</item>
+
+        <item>איזה פקיד נאצי גרמני, שנקרא גם "התליין", הוזמן לבצע את "הפיתרון הסופי לשאלת היהודים"?</item>
+        <item>ריינהרד היידריך</item>
+        <item>וולטר פאנק</item>
+        <item>היינריך הימלר</item>
+        <item>הרמן גורינג</item>
+
+        <item>מי סייע ביצירת הגסטפו, כוח המשטרה האימתני של הרייך השלישי, ומאוחר יותר התאבד ולא הוצא להורג לאחר מלחמת העולם השנייה?</item>
+        <item>הרמן גורינג</item>
+        <item>אדולף היטלר</item>
+        <item>ארווין רומל</item>
+        <item>גוסטב שטרסמן</item>
+
+        <item>איזה מנהיג צבאי גרמני היה ידוע בשם "שועל המדבר"?</item>
+        <item>ארווין רומל</item>
+        <item>הרמן גורינג</item>
+        <item>גוסטב שטרסמן</item>
+        <item>אדולף היטלר</item>
+
+        <item>איזה מלך אנגלי הוביל את ארצו למלחמת מאה השנים עם צרפת?</item>
+        <item>אדוארד השלישי</item>
+        <item>ריצ\'רד הראשון</item>
+        <item>ג\'ון</item>
+        <item>הנרי הרביעי</item>
+
+        <item>המלך ויליאם הראשון נקרא גם:</item>
+        <item>הכובש</item>
+        <item>האמיץ</item>
+        <item>שוקיים ארוכות</item>
+        <item>האדום</item>
+
+        <item>מי לא היה מלך באנגליה של ימי הביניים?</item>
+        <item>המלכה אליזבת השנייה</item>
+        <item>וויליאם הכובש</item>
+        <item>המלך ג\'ון הראשון</item>
+        <item>ריצ\'רד לב האריות</item>
+
+        <item>מי לא הייתה מלכה באנגליה של ימי הביניים?</item>
+        <item>קתרין מידלטון</item>
+        <item>מרגרט מאנג\'ו</item>
+        <item>אלינור מאקיטן</item>
+        <item>ברנגריה מנווארה</item>
+
+        <item>איזה ספורט אסר המלך אדוארד השני בשנת 1314?</item>
+        <item>כדורגל</item>
+        <item>קַשׁתוּת</item>
+        <item>תחרות הפלה ברומח</item>
+        <item>טֶנִיס</item>
+
+        <item>היכן נולד וינסנט ואן גוך?</item>
+        <item>הולנד</item>
+        <item>צרפת</item>
+        <item>שוודיה</item>
+        <item>בלגיה</item>
+
+        <item>כמה ציורים מכר ואן גוך בחייו?</item>
+        <item>1</item>
+        <item>8</item>
+        <item>15</item>
+        <item>21</item>
+
+    </string-array>
+
+    <string-array name="GeographyEASY">
+
+        <item>מהי היבשת הגדולה ביותר בכדור הארץ?</item>
+
+        <item>אסיה</item>
+
+        <item>אנטארקטיקה</item>
+
+        <item>אפריקה</item>
+
+        <item>אירופה</item>
+
+        <item>באיזו מדינה יש את כמות האגמים הטבעיים הגדולה ביותר?</item>
+
+        <item>קנדה</item>
+
+        <item>ארצות הברית</item>
+
+        <item>הודו</item>
+
+        <item>אוסטרליה</item>
+
+        <item>באיזו מדינה תוכלו לבקר במאצ\'ו פיצ\'ו?</item>
+
+        <item>פרו</item>
+
+        <item>צ\'ילה</item>
+
+        <item>קולומביה</item>
+
+        <item>בוליביה</item>
+
+        <item>באיזו מדינה אפריקאית יש הכי הרבה פירמידות?</item>
+
+        <item>סודאן</item>
+
+        <item>ירדן</item>
+
+        <item>אלג\'יריה</item>
+
+        <item>לוב</item>
+
+        <item>מהי היבשת השטוחה ביותר?</item>
+
+        <item>אוסטרליה</item>
+
+        <item>אנטארקטיקה</item>
+
+        <item>דרום אמריקה</item>
+
+        <item>אפריקה</item>
+
+        <item>מהי המדינה הגדולה ביותר בחצי האי ערב?</item>
+
+        <item>ערב הסעודית</item>
+
+        <item>תימן</item>
+
+        <item>איחוד האמירויות</item>
+
+        <item>ירדן</item>
+
+        <item>באיזו מדינה נמצא אי הקנגורו?</item>
+
+        <item>אוסטרליה</item>
+
+        <item>צרפת</item>
+
+        <item>יפן</item>
+
+        <item>בריטניה</item>
+
+        <item>מהי המדינה הגדולה ביותר בדרום אמריקה?</item>
+
+        <item>ברזיל</item>
+
+        <item>קולומביה</item>
+
+        <item>ארגנטינה</item>
+
+        <item>פרו</item>
+
+        <item>מהו ההר הגבוה בעולם?</item>
+
+        <item>הר האוורסט</item>
+
+        <item>הר קילימנג\'רו</item>
+
+        <item>אקונקגואה</item>
+
+        <item>קוגיר</item>
+
+        <item>מהי היבשת היחידה עם אדמה בכל ארבע ההמיספרות?</item>
+
+        <item>אפריקה</item>
+
+        <item>אוסטרליה</item>
+
+        <item>אסיה</item>
+
+        <item>אנטארקטיקה</item>
+
+        <item>הלסינקי היא בירת איזו מדינה?</item>
+
+        <item>פינלנד</item>
+
+        <item>נורווגיה</item>
+
+        <item>שוודיה</item>
+
+        <item>דנמרק</item>
+
+        <item>רומא היא בירת איזו מדינה?</item>
+
+        <item>איטליה</item>
+
+        <item>סנגל</item>
+
+        <item>צרפת</item>
+
+        <item>ויילס</item>
+
+        <item>עמאן היא בירת איזו מדינה?</item>
+
+        <item>ירדן</item>
+
+        <item>מצרים</item>
+
+        <item>קניה</item>
+
+        <item>לבנון</item>
+
+        <item>לאיזו יבשה שייכת אירלנד?</item>
+
+        <item>אירופה</item>
+
+        <item>צפון אמריקה</item>
+
+        <item>דרום אמריקה</item>
+
+        <item>אוסטרליה</item>
+
+        <item>איזה אוקיינוס הוא הגדול ביותר לפי גודל?</item>
+
+        <item>האוקיינוס השקט</item>
+
+        <item>האוקיינוס האטלנטי</item>
+
+        <item>האוקיינוס ההודי</item>
+
+        <item>האוקיינוס הארקטי</item>
+
+        <item>כמה אחוזים מכדור הארץ הם מים?</item>
+
+        <item>יותר מ-70%</item>
+
+        <item>יותר מ-60%</item>
+
+        <item>יותר מ-50%</item>
+
+        <item>פחות מ-50%</item>
+
+        <item>איזה אוקיינוס שוכן בין צפון אמריקה לאירופה?</item>
+
+        <item>האוקיינוס האטלנטי</item>
+
+        <item>האוקיינוס הארקטי</item>
+
+        <item>האוקיינוס השקט</item>
+
+        <item>האוקיינוס הדרומי</item>
+
+        <item>מהי המדינה הגדולה בעולם? (מבחינת שטח)</item>
+
+        <item>רוסיה</item>
+
+        <item>קנדה</item>
+
+        <item>סין</item>
+
+        <item>ארצות הברית</item>
+
+        <item>כמה אוקיינוסים יש בעולם?</item>
+
+        <item>5</item>
+
+        <item>7</item>
+
+        <item>4</item>
+
+        <item>6</item>
+
+        <item>מה שמו של המבנה המפורסם מעשה ידי אדם בסין?</item>
+
+        <item>החומה הגדולה של סין</item>
+
+        <item>השער הגדול של סין</item>
+
+        <item>הרצפה הגדולה של סין</item>
+
+        <item>התקרה הגדולה של סין</item>
+
+        <item>באיזו מדינה נמצאת עיר הוותיקן?</item>
+
+        <item>איטליה</item>
+
+        <item>קפריסין</item>
+
+        <item>יוון</item>
+
+        <item>ספרד</item>
+
+        <item>מהי עיר הבירה של אנגליה?</item>
+
+        <item>לונדון</item>
+
+        <item>מנצ\'סטר</item>
+
+        <item>בירמינגהם</item>
+
+        <item>ליברפול</item>
+
+        <item>באיזו מדינה עובר נהר הנילוס?</item>
+
+        <item>מצרים</item>
+
+        <item>ירדן</item>
+
+        <item>הודו</item>
+
+        <item>תאילנד</item>
+
+        <item>מהי עיר הבירה של צרפת?</item>
+
+        <item>פריז</item>
+
+        <item>ליון</item>
+
+        <item>מרסיי</item>
+
+        <item>טולוז</item>
+
+        <item>באיזו עיר ממוקם מגדל אייפל?</item>
+
+        <item>פריז</item>
+
+        <item>מדריד</item>
+
+        <item>לונדון</item>
+
+        <item>רומא</item>
+
+        <item>מה שמו של המונומנט הפרהיסטורי הזה הממוקם במחוז וילטשייר באנגליה?</item>
+
+        <item>סטונהנג\'</item>
+
+        <item>רוקהנג\'</item>
+
+        <item>בולדרהנג\'</item>
+
+        <item>מרבלהנג\'</item>
+
+        <item>הכיכר האדומה נמצאת באיזו עיר?</item>
+
+        <item>מוסקבה</item>
+
+        <item>סנט פטרסבורג</item>
+
+        <item>לונדון</item>
+
+        <item>ניו יורק</item>
+
+        <item>מהי עיר הבירה של רוסיה?</item>
+
+        <item>מוסקבה</item>
+
+        <item>סנט פטרסבורג</item>
+
+        <item>נובוסיבירסק</item>
+
+        <item>יקטרינבורג</item>
+
+        <item>באיזו עיר נמצא פסל החירות?</item>
+
+        <item>ניו יורק</item>
+
+        <item>לוס אנ\'גלס</item>
+
+        <item>מיאמי</item>
+
+        <item>שיקגו</item>
+
+        <item>מהי עיר הבירה של ארצות הברית?</item>
+
+        <item>וושינגטון</item>
+
+        <item>ניו יורק</item>
+
+        <item>לוס אנג\'לס</item>
+
+        <item>יוסטון</item>
+
+    </string-array>
+
+    <string-array name="Geography_MEDIUM">
+
+    <item>מהי עיר הבירה של מלזיה?</item>
+
+    <item>קואלה לומפור</item>
+
+    <item>איפו</item>
+
+    <item>ג\'והור בהרו</item>
+
+    <item>מלאקה סיטי</item>
+
+    <item>איזו מדינה רזה כתער מהווה יותר ממחצית קו החוף המערבי של דרום אמריקה?</item>
+
+    <item>צ\'ילה</item>
+
+    <item>אקוואדור</item>
+
+    <item>בוליביה</item>
+
+    <item>פרו</item>
+
+    <item>איזה נהר עובר בבגדאד?</item>
+
+    <item>טיגריס</item>
+
+    <item>ירדן</item>
+
+    <item>קארון</item>
+
+    <item>פרת</item>
+
+    <item>איזה אחוז מנהר הנילוס נמצא במצרים?</item>
+
+    <item>22%</item>
+
+    <item>83%</item>
+
+    <item>100%</item>
+
+    <item>9%</item>
+
+    <item>מהו המקום היבש ביותר על פני כדור הארץ?</item>
+
+    <item>מקמרדו, אנטארקטיקה</item>
+
+    <item>מדבר סהרה</item>
+
+    <item>קופרה, לוב</item>
+
+    <item>מדבר אטקמה</item>
+
+    <item>מהי העיר העתיקה ביותר בעולם?</item>
+
+    <item>דמשק</item>
+
+    <item>יריחו</item>
+
+    <item>אתונה</item>
+
+    <item>ירושלים</item>
+
+    <item>באיזו מדינה יש קו החוף הגדול ביותר?</item>
+
+    <item>קנדה</item>
+
+    <item>סין</item>
+
+    <item>ארצות הברית</item>
+
+    <item>רוסיה</item>
+
+    <item>אילו מהרי הגעש הבאים אינם נמצאים באנטארקטיקה?</item>
+
+    <item>הר נאפייר</item>
+
+    <item>הר מלבורן</item>
+
+    <item>הר ברלין</item>
+
+    <item>הר המפטון</item>
+
+    <item>איזו יבשת ממוקמת בקו רוחב 90 ° S אורך 0.00 ° E?</item>
+
+    <item>אנטארקטיקה</item>
+
+    <item>אוסטרליה</item>
+
+    <item>דרום אמריקה</item>
+
+    <item>אסיה</item>
+
+    <item>איזו עיר היא בירת אוסטרליה?</item>
+
+    <item>קנברה</item>
+
+    <item>סידני</item>
+
+    <item>פרת\'</item>
+
+    <item>מלבורן</item>
+
+    <item>ריאד היא בירת איזו מדינה במזרח התיכון?</item>
+
+    <item>ערב הסעודית</item>
+
+    <item>סוריה</item>
+
+    <item>תימן</item>
+
+    <item>עיראק</item>
+
+    <item>איזו מהמדינות האפריקאיות הללו אינן מוגבלות בשטח?</item>
+
+    <item>קונגו</item>
+
+    <item>צ\'אד</item>
+
+    <item>בורקינה פאסו</item>
+
+    <item>ניז\'ר</item>
+
+    <item>מהי המדינה העצמאית הקטנה ביותר על פני כדור הארץ?</item>
+
+    <item>עיר הותיקן</item>
+
+    <item>מונקו</item>
+
+    <item>נאורו</item>
+
+    <item>גרנדה</item>
+
+    <item>יחד עם ספרד וצרפת, מהי המדינה שיש לה קו חוף שעובר גם באוקיינוס האטלנטי וגם בים התיכון?</item>
+
+    <item>מרוקו</item>
+
+    <item>סוריה</item>
+
+    <item>לבנון</item>
+
+    <item>מצרים</item>
+
+    <item>איזו מדינה תופסת את הקצה הדרומי של חצי האי ערב?</item>
+
+    <item>תימן</item>
+
+    <item>ירדן</item>
+
+    <item>כווית</item>
+
+    <item>קטאר</item>
+
+    <item>איזו מדינה בדרום אמריקה חולקת את עיקר החרוט הדרומי עם שכנתה צ\'ילה ממערב?</item>
+
+    <item>ארגנטינה</item>
+
+    <item>ברזיל</item>
+
+    <item>בוליביה</item>
+
+    <item>פרגוואי</item>
+
+    <item>מהו ההר הגבוה ביותר בצפון אמריקה?</item>
+
+    <item>הר דנאלי</item>
+
+    <item>הר סטיל</item>
+
+    <item>הר ראשמור</item>
+
+    <item>קינג פיק</item>
+
+    <item>מונטווידאו היא בירת איזו מדינה דרום אמריקאית?</item>
+
+    <item>אורוגוואי</item>
+
+    <item>סורינאם</item>
+
+    <item>פרו</item>
+
+    <item>פרגוואי</item>
+
+    <item>איזו מדינה בארה"ב חולקת גבולות עם לואיזיאנה, ארקנסו, אוקלהומה וניו מקסיקו?</item>
+
+    <item>טקסס</item>
+
+    <item>קולורדו</item>
+
+    <item>מיזורי</item>
+
+    <item>קנזס</item>
+
+    <item>איזו יבשת מכילה הכי הרבה מים מתוקים?</item>
+
+    <item>אנטארקטיקה</item>
+
+    <item>אסיה</item>
+
+    <item>אפריקה</item>
+
+    <item>צפון אמריקה</item>
+
+    <item>באיזה אוקיינוס נמצאים 75% מהרי הגעש של כדור הארץ?</item>
+
+    <item>שקט</item>
+
+    <item>אטלנטי</item>
+
+    <item>הודי</item>
+
+    <item>ארקטי</item>
+
+    <item>מהי העיר הגדולה היחידה הממוקמת בשתי יבשות?</item>
+
+    <item>איסטנבול</item>
+
+    <item>ניו דלהי</item>
+
+    <item>לונדון</item>
+
+    <item>רומא</item>
+
+    <item>מהו הים הקר ביותר על פני כדור הארץ?</item>
+
+    <item>הים הלבן</item>
+
+    <item>המפרץ הפרסי</item>
+
+    <item>הים הבלטי</item>
+
+    <item>הים הכספי</item>
+
+    <item>מהי העיר הגדולה ביותר באמריקה מבחינת שטח?</item>
+
+    <item>יקוטט</item>
+
+    <item>בופורד</item>
+
+    <item>לוס אנג\'לס</item>
+
+    <item>ניו יורק</item>
+
+    <item>מהו הר הגעש הפעיל העתיק ביותר על פני כדור הארץ?</item>
+
+    <item>הר אתנה</item>
+
+    <item>הר יסעור</item>
+
+    <item>הר פוג\'י</item>
+
+    <item>הר אולימפוס</item>
+
+    <item>איזה נהר עובר בפריז?</item>
+
+    <item>נהר הסן</item>
+
+    <item>נהר התמזה</item>
+
+    <item>נהר דנובה</item>
+
+    <item>נהר האלבה</item>
+
+    <item>איזה רכס הרים משתרע מהעיירה סייסן בצפון מערב גרמניה ועד אייזלבן במזרח?</item>
+
+    <item>הרי הארץ</item>
+
+    <item>הרי האלפים</item>
+
+    <item>הרי אורל</item>
+
+    <item>הרי הפירנאים</item>
+
+    <item>אילו הרים מהווים חלק מהגבול המקובל בין יבשות אירופה ואסיה?</item>
+
+    <item>הרי אורל</item>
+
+    <item>הרי הימלאיה</item>
+
+    <item>הרי האנדים</item>
+
+    <item>הרי האפלצ\'ים</item>
+
+    <item>מהו הנהר בעל הזרם המהיר ביותר בעולם?</item>
+
+    <item>אמזונה</item>
+
+    <item>יאנגצה</item>
+
+    <item>מיסיסיפי</item>
+
+    <item>קונגו</item>
+
+    <item>מהי המדינה הצפופה ביותר על פני כדור הארץ?</item>
+
+    <item>מונקו</item>
+
+    <item>שנחאי</item>
+
+    <item>ניו יורק</item>
+
+    <item>טוקיו</item>
+
+</string-array>
+
+    <string-array name="Geography_HARD">
+
+    <item>מהו הים היחיד ללא חופים?</item>
+
+    <item>ים סרגסו</item>
+
+    <item>הים האדריאטי</item>
+
+    <item>ים סלבס</item>
+
+    <item>ים התיכון</item>
+
+    <item>באיזו מדינה אפריקאית צולמו סצנות טאטואין במלחמת הכוכבים?</item>
+
+    <item>תוניסיה</item>
+
+    <item>גבון</item>
+
+    <item>גאנה</item>
+
+    <item>אתיופיה</item>
+
+    <item>לאיזו מדינה בארה"ב יש הכי הרבה הרי געש פעילים?</item>
+
+    <item>אלסקה</item>
+
+    <item>הוואי</item>
+
+    <item>קליפורניה</item>
+
+    <item>וושינגטון</item>
+
+    <item>מה הנקודה העמוקה ביותר באוקיינוסים של כדור הארץ?</item>
+
+    <item>שקע מריאנה</item>
+
+    <item>תעלת טונגה</item>
+
+    <item>אגן אירואסיה</item>
+
+    <item>תעלת ג\'אווה</item>
+
+    <item>איזה הר מכונה "הר פראי"?</item>
+
+    <item>K2</item>
+
+    <item>מטרהורן</item>
+
+    <item>אנאפורנה</item>
+
+    <item>אוורסט</item>
+
+    <item>מה המפל הגבוה ביותר באירופה?</item>
+
+    <item>קרימל</item>
+
+    <item>ריין</item>
+
+    <item>טריברג</item>
+
+    <item>קילפוסן</item>
+
+    <item>איזה הר הכי קרוב לירח?</item>
+
+    <item>הר צ\'ימבוראזו</item>
+
+    <item>אוורסט</item>
+
+    <item>הר פנדים</item>
+
+    <item>ננגה פרבאט</item>
+
+    <item>מהי העיר הגדולה בעולם מבחינת שטח?</item>
+
+    <item>חולונבויר</item>
+
+    <item>דאקה</item>
+
+    <item>מומבאי</item>
+
+    <item>שנחאי</item>
+
+    <item>איזה מהאגמים הבאים נמצא במכתש עתיק שנוצר כתוצאה מפגיעת מטאוריט?</item>
+
+    <item>אגם בוסומטווי</item>
+
+    <item>אגם מברו</item>
+
+    <item>אגם פופו</item>
+
+    <item>אגם טיטיקקה</item>
+
+    <item>מבין שמונת האיים הגדולים בארכיפלג הוואי, מה היחיד שאינו מיושב?</item>
+
+    <item>קאהולאווה</item>
+
+    <item>אי הקוקוס</item>
+
+    <item>מולוקאי</item>
+
+    <item>ניהאו</item>
+
+    <item>איזה אי הוואי מכונה "אי הציפורים"?</item>
+
+    <item>ניהואה</item>
+
+    <item>קוהולה</item>
+
+    <item>הולו</item>
+
+    <item>פולמוקו</item>
+
+    <item>איזו מדינה בארה"ב מכילה את הר שולחן (הר בעל ראש שטוח) הגדול ביותר בעולם?</item>
+
+    <item>קולורדו</item>
+
+    <item>אריזונה</item>
+
+    <item>ויומינג</item>
+
+    <item>יוטה</item>
+
+    <item>מהי העיר העתיקה ביותר בטקסס?</item>
+
+    <item>נקוגדוכס</item>
+
+    <item>אל פאסו</item>
+
+    <item>סן אנטוניו</item>
+
+    <item>דה קלב</item>
+
+    <item>מהי העיר העתיקה ביותר בהודו?</item>
+
+    <item>ורנאסי</item>
+
+    <item>פטנה</item>
+
+    <item>מדוראי</item>
+
+    <item>אוג\'יין</item>
+
+    <item>באיזו מדינה בארה"ב יש את האקוויפר הגדול ביותר?</item>
+
+    <item>נברסקה</item>
+
+    <item>פלורידה</item>
+
+    <item>טקסס</item>
+
+    <item>אלסקה</item>
+
+    <item>מהי בירת המדינה של אורגון?</item>
+
+    <item>סאלם</item>
+
+    <item>הילסבורו</item>
+
+    <item>יוג\'ין</item>
+
+    <item>פורטלנד</item>
+
+    <item>מהי עיר הבירה של ססקצ\'ואן?</item>
+
+    <item>רג\'ינה</item>
+
+    <item>מלוויל</item>
+
+    <item>יורקטון</item>
+
+    <item>ססקאטון</item>
+
+    <item>לאילו מרכסי הרים אלה הגובה המרבי הגבוה ביותר?</item>
+
+    <item>הרי האנדים</item>
+
+    <item>הרי הרוקי</item>
+
+    <item>הרי האלפים</item>
+
+    <item>הרי אורל</item>
+
+    <item>איזה מהנהרות האלה זורם דרך הכי הרבה מדינות?</item>
+
+    <item>נהר הדנובה</item>
+
+    <item>נהר פרת</item>
+
+    <item>נהר המיסיסיפי</item>
+
+    <item>נהר האמזונס</item>
+
+    <item>לאיזה מגופי מים אלה השטח הגדול ביותר?</item>
+
+    <item>מפרץ מקסיקו</item>
+
+    <item>הים האדום</item>
+
+    <item>הים השחור</item>
+
+    <item>המפרץ הפרסי</item>
+
+    <item>איזו מהמדינות הללו לא הייתה חלק מברית המועצות?</item>
+
+    <item>פולין</item>
+
+    <item>אוקראינה</item>
+
+    <item>בלארוס</item>
+
+    <item>גאורגיה</item>
+
+    <item>איזו מהמדינות הללו מעולם לא הייתה חלק מהאימפריה הבריטית?</item>
+
+    <item>תאילנד</item>
+
+    <item>קניה</item>
+
+    <item>אירלנד</item>
+
+    <item>ניו זילנד</item>
+
+    <item>סטוקטון ומודסטו ממוקמות באיזו מדינה?</item>
+
+    <item>קליפורניה</item>
+
+    <item>מישיגן</item>
+
+    <item>ארקנסו</item>
+
+    <item>דלאוור</item>
+
+    <item>מהי המדינה העשירית המאוכלסת ביותר בעולם?</item>
+
+    <item>יפן</item>
+
+    <item>רוסיה</item>
+
+    <item>ניגריה</item>
+
+    <item>אתיופיה</item>
+
+    <item>מהי בירת נאורו?</item>
+
+    <item>יארן</item>
+
+    <item>נוקואלופה</item>
+
+    <item>קנברה</item>
+
+    <item>פנאפוטי</item>
+
+    <item>מהאג\'אנגה היא עיר באיזו מדינת אי?</item>
+
+    <item>מדגסקר</item>
+
+    <item>כף ורדה</item>
+
+    <item>איי קומורו</item>
+
+    <item>ניו זילנד</item>
+
+    <item>אגם לדוגה נמצא באיזו מדינה?</item>
+
+    <item>רוסיה</item>
+
+    <item>פינלנד</item>
+
+    <item>קנדה</item>
+
+    <item>ארצות הברית</item>
+
+    <item>באילו מהמדינות הללו אפשר למצוא צבע סגול בדגל המדינה?</item>
+
+    <item>דומיניקה</item>
+
+    <item>קיריבאטי</item>
+
+    <item>פלאו</item>
+
+    <item>סנט לוסיה</item>
+
+    <item>אוגדן ופרובו הן ערים באיזו מדינה אמריקאית?</item>
+
+    <item>יוטה</item>
+
+    <item>קולורדו</item>
+
+    <item>איידהו</item>
+
+    <item>נברסקה</item>
+
+    <item>קאוסיונג וטיאנאן הן ערים באיזו מדינה?</item>
+
+    <item>טייוואן</item>
+
+    <item>יפן</item>
+
+    <item>דרום קוריאה</item>
+
+    <item>סין</item>
+
+</string-array>
+
+</resources>
